@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Sen', sans-serif; */
+}
+.upperPage{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(0, 0, 0)
+}
+.rightPage{
+    width: 60px;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+}
+.liftPage{
+    width: 60px;
+    height: 2000px;
+    background-color: rgb(0, 0, 0);
+    float: right;
+    top: 0;
+}
