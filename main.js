@@ -6,7 +6,12 @@ let Description = ["A crooked legal guardian who drains the savings of her elder
 
 const movies = [{Name :{typeof :"Comedy" ,Description :Description[0]}}]
 
-header.addClass("Main-Header blue-bg");
 
 
 
+
+const he = $(".Action")
+he.on("click", () => {
+    console.log("List item has been clicked");
+    he.hide()
+});
