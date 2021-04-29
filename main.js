@@ -25,12 +25,15 @@ let img
 let hh
 let pargagrah
 let fav 
+let video
 
 const movieName = (i)=>{
     movies.forEach((ele,x)=>{
     // img = $(`<img src= ${movies[i].img} class="img"`)
     hh = $(`<h2 class=name>${movies[i].name}</h2>`)
     pargagrah = $(`<p>${movies[i].Dec}</p>`)
+ 
+ video = $('<div class="vidio">    <iframe  width="500" height="220" src="https://www.youtube.com/embed/z6nc9IkQfcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    <div class="perant"></div>')
 })
 }
 
@@ -43,6 +46,7 @@ const ADD = (i)=>{
     add2.append(img)
     add2.append(hh)
     add2.append(pargagrah)
+    add2.append(video)
     // add2.append(select)
     add2.append(fav)
     add.append(add2)
