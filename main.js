@@ -128,7 +128,7 @@ movies.forEach(function(ele,i){
                     <h2 class = namedetalis id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
                     <h2 class = typeddetails" id="type">${movies[i][key][key2].type}</h2>
                     <h2 class = dateDetails >${movies[i][key][key2].date}<h2> 
-                    <button onclick="favoritesFun()">Add to favorites</button>
+                    <button id"nobuton" onclick="favoritesFun()">Add to favorites</button>
                 </div> 
                 </div>
                 `)
@@ -247,12 +247,18 @@ other.hide()
 u++
 if(u===1){
 const about = $(`
-    <h1>Mo_movies</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius illo officiis totam vel deleniti provident similique. Fugit, quam nihil autem quaerat animi molestias porro, maiores dolorem alias maxime architecto molestiae?</p>
-    <h1>Contact Us</h1>
-    <p>Phone :0789814895
-    email:abedalnabi96@gmail.com
-    </p>`)
+    <h1 class = H1 > <span style="color: red;">Mo</span>_Movies</h1>
+    <p class = P>Welcome, thank you for using our website
+
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque facere cupiditate laborum sint, rerum porro vitae quidem eius reprehenderit voluptate pariatur nobis nemo architecto quod fugit, ipsum quia. Nemo, repudiandae!
+        We are a site specializing in films and serials of all kinds, including action, comedy and entertainment. Here you will find information about films and videos for describing the film as well as film evaluations by the approved sites.</p>
+        <p class =P>Thanks</p>
+    <h1 class = H1>Contact Us</h1>
+    <p class = P><i class='bx bxs-phone-call bx-tada' ></i>Phone :0789814895</p>
+    <p class = P> <i class='bx bx-mail-send bx-tada' ></i>email:abedalnabi96@gmail.com<p>
+    <p class = P><i class='bx bx-phone-incoming bx-tada' ></i>Telphone : 065894862<p>
+
+    `)
 
     body.append(about)}
 })
@@ -263,6 +269,7 @@ ActionMovies.on("click" ,ActionMoviesFun)
 DramaMovies.on("click" ,DramaMoviesFun)
 
 $(".movieall").on("click" ,allMovies)
+
 
 
 
