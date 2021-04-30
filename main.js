@@ -62,6 +62,36 @@ const allmoviesButton1 = $(".allmoviesButton")
 const ActionMovies  =   $(".Action")
 const DramaMovies=      $(".Drama")
 const ditails = $(".ditails")
+const FAV= $(".FAV")
+
+
+const favoritesFun =()=>{
+console.log($(".dateDetails").text())
+
+let z= $(".dateDetails").text()
+let c = $(".typeddetails").text()
+let v =  $(".namedetalis").text()
+let t = $(".DetailsIMg").attr("src")
+console.log(t)
+let fav
+
+    fav = $(`
+    <div class="All">  
+            <div >
+                <img class="AllImage" id=$  src=${t}>
+                </div>
+                <div class="Des">
+                    <h2 id =  >${v}<h2> 
+                    <h2 id="type">${c}</h2>
+                    <h2>${z}<h2> 
+                </div> 
+            </div>
+    `)
+    localStorage.setItem("key", fav);
+    let locaal = localStorage.getItem("key")
+    FAV.append(fav)
+    
+}
 
 const allMovies = ()=> {
     baner.hide()
@@ -83,7 +113,6 @@ movies.forEach(function(ele,i){
 
                 </div> 
             </div>`)
-            
             other.append(allMovies)
             let a= movies[i][key][key2].name
             $(`#${a}`).on("click", ()=>{
@@ -95,10 +124,10 @@ movies.forEach(function(ele,i){
                     <img class="DetailsIMg" id=${movies[i][key][key2].name}  src=${movies[i][key][key2].img}>
                 </div>
                 <div class="Des">
-                    <h2 id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
-                    <h2 id="type">${movies[i][key][key2].type}</h2>
-                    <h2>${movies[i][key][key2].date}<h2> 
-
+                    <h2 class = namedetalis id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
+                    <h2 class = typeddetails" id="type">${movies[i][key][key2].type}</h2>
+                    <h2 class = dateDetails >${movies[i][key][key2].date}<h2> 
+                    <button onclick="favoritesFun()">Add to favorites</button>
                 </div> 
                 </div>
                 `)
@@ -127,6 +156,7 @@ movies.forEach(function(ele,i){
                     <h2 id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
                     <h2 id="type">${movies[i][key][key2].type}</h2>
                     <h2>${movies[i][key][key2].date}<h2> 
+                    
 
                 </div> 
             </div>`)
@@ -145,6 +175,7 @@ movies.forEach(function(ele,i){
                     <h2 id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
                     <h2 id="type">${movies[i][key][key2].type}</h2>
                     <h2>${movies[i][key][key2].date}<h2> 
+                    <button onclick="favoritesFun()">Add to favorites</button>
 
                 </div> 
                 </div>
@@ -193,6 +224,7 @@ movies.forEach(function(ele,i){
                     <h2 id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
                     <h2 id="type">${movies[i][key][key2].type}</h2>
                     <h2>${movies[i][key][key2].date}<h2> 
+                    <button onclick="favoritesFun()">Add to favorites</button>
 
                 </div> 
                 </div>
@@ -216,81 +248,10 @@ DramaMovies.on("click" ,DramaMoviesFun)
 
 
 
-    // $("#BLACK_PANTHER").on("click", ()=>{
-    //     console.log("GSDFg")
-    // for(let x= 0 ;x<movies.length ; x++){
-    //     for (const key in movies[i]){
-    //         for (const key2 in movies[i][key]){
-    //             if($(`bl`)){
-
-    //             }
-
-    //         }
-    //     }
-    // }
-
-    // })
-
-  
-    // $(`#${a}`).on("click", ()=>{
-    //     console.log("GSddddddddddDFg")
-    // for(let x= 0 ;x<movies.length ; x++){
-    //     for (const key in movies[x]){
-    //         for (const key2 in movies[x][key]){
-    //             if($(`bl`)){
-
-    //             }
-
-    //         }
-    //     }
-    // }
-
-    // })
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// click.on('click',()=>{
-// movies.forEach(function(ele,i){
-//     for(const key in movies[i]){
-//         for(const key2 in movies[i][key]){
-//             console.log($("#BLACK-PANTHER").text())
-//             console.log(movies[i][key][key2].name)
-//             if(movies[i][key][key2].name === $("#BLACKPANTHER").val){
-//             console.log("dsa")
-//         }
-//         }
-//     }
-
-
-// })
-
-
-
-// })
 
 
 
