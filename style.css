@@ -10,8 +10,15 @@ body{
     
 
 }
+
+a:hover{
+color: rgb(163, 34, 34);
+
+}
 a{
     text-decoration: none;
+    font-size: large;
+    font-weight:b ;
 }
 .upperPage{
     position: fixed;
@@ -20,7 +27,9 @@ a{
     height: 60px;
     background-color: rgb(0, 0, 0)
 }
-
+.Upeeer:hover{
+    color: rgb(170, 26, 26);
+}
 .Upeeer{
     display: flex;
     justify-content: space-between;
@@ -30,6 +39,9 @@ a{
     list-style-type: none;
     margin: 20px;
     color: white;
+    font-size: large;
+    cursor: pointer;
+    
 }
 .Upeer{
     display: flex;

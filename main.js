@@ -238,10 +238,25 @@ movies.forEach(function(ele,i){
 
 }
 
+///////////////////////////////////////
+const aboutus = $(".AboutUs")
+u=0
+aboutus.on("click",()=>{
+baner.hide()
+other.hide()
+u++
+if(u===1){
+const about = $(`
+    <h1>Mo_movies</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius illo officiis totam vel deleniti provident similique. Fugit, quam nihil autem quaerat animi molestias porro, maiores dolorem alias maxime architecto molestiae?</p>
+    <h1>Contact Us</h1>
+    <p>Phone :0789814895
+    email:abedalnabi96@gmail.com
+    </p>`)
 
-
-
-
+    body.append(about)}
+})
+///////////////////////////////////////
 
 allmoviesButton1.on("click" ,allMovies)
 ActionMovies.on("click" ,ActionMoviesFun)
