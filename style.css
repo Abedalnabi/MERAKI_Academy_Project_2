@@ -6,8 +6,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     /* font-family: 'Sen', sans-serif; */
-    background-color: beige;
-    
+    background-color: rgb(250, 250, 234);    
 
 }
 
@@ -64,7 +63,7 @@ button  {
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    transition-duration: 0.4s;
+    transition-duration: 1.8s;
     cursor: pointer;
     
 }
@@ -77,9 +76,23 @@ button:hover {
     background-color: white;
     color: rgb(0, 0, 0)
 }
+.img{
+    width: 50px;
+    height: 50px;
+}
+.allmoviesButton-img{
+    width: 50px;
+    height: 100px;
+    top: 0;
+    left: 0;
+}
 
-
-
+.IMGE{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+}
 .BANEER{
     display: grid;
     justify-content: center;
