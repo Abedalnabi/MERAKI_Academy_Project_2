@@ -10,29 +10,29 @@ const movies = [
         name: "Avatar  ",
         date: "2009",
         type: "Action",
-        img: ""},
+        img: "121233.jpg"},
 
     godzilla: {
         keyName: "godzilla",
         name: "godzilla",
         date: "2021",
         type: "Action",
-        img: ""},
+        img: "121233.jpg"},
 
     Inception: {
         keyName: "Inception",
         name: "Inception",
         date: "2010",
         type: "Action",
-        img: ""},
+        img: "121233.jpg"},
 
     Bloodshot : {
         keyName: "Bloodshot ",
         name: "Bloodshot",
         date: "2021",
         type: "Action",
-        img: "images/TheMatrix.jpg"},
-    },
+        img: "121233.jpg"},
+    }
 },
 {
     drama: {
@@ -41,28 +41,58 @@ const movies = [
         name: "BLACK PANTHER",
         date: "2018",
         type: "Drama",
-        img: ""},
+        img: "121233.jpg"},
     BLACKKKLANSMAN: {
         keyName: "BLACKKKLANSMAN",
         name: "BLACKKKLANSMAN",
         date: "2018",
         type: "Drama",
-        img: ""},
+        img: "121233.jpg"},
     DUNKIRK: {
         keyName: "DUNKIRK",
         name: "DUNKIRK",
         date: "2017",
         type: "Drama",
-        img: ""},
-    BLACKPANTHER: {
-        keyName: "BLACKPANTHER",
-        name: "BLACK PANTHER",
+        img: "121233.jpg"},
+    BLACKPANTHER2: {
+        keyName: "BLACKPANTHER2",
+        name: "BLACK PANTHER2",
         date: "2018",
         type: "Drama",
-        img: ""},
-    },
+        img: "121233.jpg"},
+    }
 },
 ]
+const baner  = $(".BANEER")
+const other =$(".other")
+const allmoviesButton1 = $(".allmoviesButton")
+
+
+
+const allMovies = ()=> {
+    baner.hide()
+    
+movies.forEach(function(ele,i){
+    for(const key in movies[i]){
+        for(const key2 in movies[i][key]){
+
+            const allMovies = $(`
+            <div class="All">  
+                <div >
+                    <img class="AllImage" src=${movies[i][key][key2].img}>
+                </div>
+                <div class="Des">
+                    <h3>${movies[i][key][key2].name}<h2> 
+                    <h3 id="type">${movies[i][key][key2].type}</h2>
+                </div> 
+            </div>`)
+            other.append(allMovies)
+        }
+    }
+})
+}
+allmoviesButton1.on("click" ,allMovies)
+
 
 
 
