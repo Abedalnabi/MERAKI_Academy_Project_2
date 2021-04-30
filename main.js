@@ -33,7 +33,7 @@ const movies = [
 {
     drama: {
         BLACKPANTHER: {
-            name: "BLACK-PANTHER",
+            name: "BLACK_PANTHER",
             date: "2018",
             type: "Drama",
             img: "121233.jpg"},
@@ -48,7 +48,7 @@ const movies = [
             type: "Drama",
             img: "121233.jpg"},
         BLACKPANTHER2: {
-            name: "BLACK PANTHER2",
+            name: "BLACK_PANTHER2",
             date: "2018",
             type: "Drama",
             img: "121233.jpg"},
@@ -65,40 +65,16 @@ const ditails = $(".ditails")
 
 const allMovies = ()=> {
     baner.hide()
-    
 movies.forEach(function(ele,i){
     for(const key in movies[i]){
         for(const key2 in movies[i][key]){
-
+            
+            
+                
             const allMovies = $(`
             <div class="All">  
                 <div >
-                    <img class="AllImage" src=${movies[i][key][key2].img}>
-                </div>
-                <div class="Des">
-                    <h2 id = ${movies[i][key][key2].name}>${movies[i][key][key2].name}<h2> 
-                    <h2 id="type">${movies[i][key][key2].type}</h2>
-                    <h2>${movies[i][key][key2].date}<h2> 
-
-                </div> 
-            </div>`)
-            other.append(allMovies)
-        }
-    }
-})
-}
-
-const ActionMoviesFun = ()=> {
-    baner.hide()
-    
-movies.forEach(function(ele,i){
-    for(const key in movies[i]){
-        for(const key2 in movies[i][key]){
-            if(key==="action"){
-            const allMovies = $(`
-            <div class="All">  
-                <div >
-                    <img class="AllImage" src=${movies[i][key][key2].img}>
+                    <img class="AllImage" id=${movies[i][key][key2].name}  src=${movies[i][key][key2].img}>
                 </div>
                 <div class="Des">
                     <h2 id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
@@ -107,25 +83,32 @@ movies.forEach(function(ele,i){
 
                 </div> 
             </div>`)
+            
             other.append(allMovies)
-        }}
+            let a= movies[i][key][key2].name
+            $(`#${a}`).on("click", ()=>{
+                other.hide()
+                console.log("GSddddddddddDFg")
+                const DetailsForDrama= $(`
+                <div class="DetailsAll">  
+                <div >
+                    <img class="DetailsIMg" id=${movies[i][key][key2].name}  src=${movies[i][key][key2].img}>
+                </div>
+                <div class="Des">
+                    <h2 id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
+                    <h2 id="type">${movies[i][key][key2].type}</h2>
+                    <h2>${movies[i][key][key2].date}<h2> 
+
+                </div> 
+                </div>
+                `)
+                ditails.append(DetailsForDrama)
+            })
+        }
     }
 })
-}
 
-const clickFun = function (){
-    movies.forEach(function(ele,i){
-        for(const key in movies[i]){
-            for(const key2 in movies[i][key]){
-                if(movies[i][key][key2].name === e){
-                
-            }
-            }
-        }
-    
-    
-    })
-    }
+}
 
 const DramaMoviesFun = ()=> {
     baner.hide()
@@ -134,10 +117,7 @@ movies.forEach(function(ele,i){
         for(const key2 in movies[i][key]){
             
             if(key==="drama"){
-                let NAME = movies[i][key][key2].name
-                console.log(NAME)
                 
-                // console.log(NAME)
             const allMovies = $(`
             <div class="All">  
                 <div >
@@ -150,12 +130,44 @@ movies.forEach(function(ele,i){
 
                 </div> 
             </div>`)
+            
             other.append(allMovies)
+            let a= movies[i][key][key2].name
+            $(`#${a}`).on("click", ()=>{
+                other.hide()
+                console.log("GSddddddddddDFg")
+                const DetailsForDrama= $(`
+                <div class="DetailsAll">  
+                <div >
+                    <img class="DetailsIMg" id=${movies[i][key][key2].name}  src=${movies[i][key][key2].img}>
+                </div>
+                <div class="Des">
+                    <h2 id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
+                    <h2 id="type">${movies[i][key][key2].type}</h2>
+                    <h2>${movies[i][key][key2].date}<h2> 
 
-            $(".AllImage").on("click", ()=>{
-                if(NAME==="BLACK-PANTHER"){
-                const details =$(`
-                <div class="All">  
+                </div> 
+                </div>
+                `)
+                ditails.append(DetailsForDrama)
+            })
+        }}
+    }
+})
+
+}
+
+
+const ActionMoviesFun = ()=> {
+    baner.hide()
+movies.forEach(function(ele,i){
+    for(const key in movies[i]){
+        for(const key2 in movies[i][key]){
+            
+            if(key==="action"){
+                
+            const allMovies = $(`
+            <div class="All">  
                 <div >
                     <img class="AllImage" id=${movies[i][key][key2].name}  src=${movies[i][key][key2].img}>
                 </div>
@@ -163,24 +175,101 @@ movies.forEach(function(ele,i){
                     <h2 id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
                     <h2 id="type">${movies[i][key][key2].type}</h2>
                     <h2>${movies[i][key][key2].date}<h2> 
+
                 </div> 
-            </div>
+            </div>`)
+            
+            other.append(allMovies)
+            let a= movies[i][key][key2].name
+            $(`#${a}`).on("click", ()=>{
+                other.hide()
+                console.log("GSddddddddddDFg")
+                const DetailsForDrama= $(`
+                <div class="DetailsAll">  
+                <div >
+                    <img class="DetailsIMg" id=${movies[i][key][key2].name}  src=${movies[i][key][key2].img}>
+                </div>
+                <div class="Des">
+                    <h2 id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
+                    <h2 id="type">${movies[i][key][key2].type}</h2>
+                    <h2>${movies[i][key][key2].date}<h2> 
+
+                </div> 
+                </div>
                 `)
-                ditails.append(details)
-
-                }
-                if(NAME==="BLACK-PANTHER"){
-                    
-                }if(NAME==="BLACK-PANTHER"){
-                    
-                }if(NAME==="BLACK-PANTHER"){
-                    
-                }
-
+                ditails.append(DetailsForDrama)
             })
         }}
     }
 })
+
+}
+
+
+
+
+
+
+allmoviesButton1.on("click" ,allMovies)
+ActionMovies.on("click" ,ActionMoviesFun)
+DramaMovies.on("click" ,DramaMoviesFun)
+
+
+
+    // $("#BLACK_PANTHER").on("click", ()=>{
+    //     console.log("GSDFg")
+    // for(let x= 0 ;x<movies.length ; x++){
+    //     for (const key in movies[i]){
+    //         for (const key2 in movies[i][key]){
+    //             if($(`bl`)){
+
+    //             }
+
+    //         }
+    //     }
+    // }
+
+    // })
+
+  
+    // $(`#${a}`).on("click", ()=>{
+    //     console.log("GSddddddddddDFg")
+    // for(let x= 0 ;x<movies.length ; x++){
+    //     for (const key in movies[x]){
+    //         for (const key2 in movies[x][key]){
+    //             if($(`bl`)){
+
+    //             }
+
+    //         }
+    //     }
+    // }
+
+    // })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -202,25 +291,6 @@ movies.forEach(function(ele,i){
 
 
 // })
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-allmoviesButton1.on("click" ,allMovies)
-ActionMovies.on("click" ,ActionMoviesFun)
-DramaMovies.on("click" ,DramaMoviesFun)
 
 
 
