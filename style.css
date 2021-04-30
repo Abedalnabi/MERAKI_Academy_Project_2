@@ -1,10 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 body{
     font-family: 'Roboto', sans-serif;
     /* font-family: 'Sen', sans-serif; */
+    background-color: beige;
     
 
 }
@@ -93,7 +95,10 @@ margin-top: 100px;
 cursor: pointer;
 height: 335px;
 }
-
+.movieall{
+    cursor: pointer;
+    
+}
 .AllImage{
     height: 302px;
     width: 249px;

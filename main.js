@@ -64,7 +64,7 @@ const DramaMovies=      $(".Drama")
 const ditails = $(".ditails")
 const FAV= $(".FAV")
 
-
+////////////////////////////////////////////////////////////////////////
 const favoritesFun =()=>{
 console.log($(".dateDetails").text())
 
@@ -87,12 +87,13 @@ let fav
                 </div> 
             </div>
     `)
-    localStorage.setItem("key", fav);
-    let locaal = localStorage.getItem("key")
     FAV.append(fav)
+    localStorage.setItem("key",FAV.append(fav));
+    let locaal = localStorage.getItem("key")
+    FAV.hide()
     
 }
-
+///////////////////////////////////////////////////////////////////////////////////
 const allMovies = ()=> {
     baner.hide()
 movies.forEach(function(ele,i){
@@ -246,6 +247,7 @@ allmoviesButton1.on("click" ,allMovies)
 ActionMovies.on("click" ,ActionMoviesFun)
 DramaMovies.on("click" ,DramaMoviesFun)
 
+$(".movieall").on("click" ,allMovies)
 
 
 
