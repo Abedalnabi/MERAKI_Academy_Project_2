@@ -46,56 +46,56 @@ const movies = [
             date: "2020",
             type: "Action Movie",
             img: "https://m.media-amazon.com/images/M/MV5BZDA3MGJlYjItYmMzOC00MGU4LTgzNjEtMjcyOTJkNmNiZmE5XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
-            ,des: "",
-            video:""
+            ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
+            video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
         HardKill: {
             name: "HardKill",
             date: "2019",
             type: "Action Movie",
             img: "https://cdn.hmv.com/r/w-1280/hmv/files/aa/aa6d7b6b-6b76-49f7-9c8d-43acc534bf9c.jpg"
-            ,des: "",
-            video:""
+            ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
+            video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
         Greenland2020: {
             name: "Greenland2020",
             date: "2011",
             type: "Action Movie",
             img: "https://m.media-amazon.com/images/M/MV5BMzcyMzU4MDUtM2JhOC00ZDg2LTg5MGMtZjc2OGMyMjhlMGE2XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
-            ,des: "",
-            video:""
+            ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
+            video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
         TheOutpost: {
             name: "TheOutpost",
             date: "2020",
             type: "Action Movie",
             img: "https://lh3.googleusercontent.com/proxy/-gd7AZ-mQpyeB572UFj3sXs07Vt5gvMM0YuRYevXaWSsBUJxrv_LivhLksC35ailtLstk3dy21Z-BKObZPxTuLDSFVsunCIGd8oXOoM"
-            ,des: "",
-            video:""
+            ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
+            video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
         LostBullet: {
             name: "LostBullet",
             date: "2015",
             type: "Action Movie",
             img: "https://m.media-amazon.com/images/M/MV5BN2M5MzE4NTMtMDNmOC00ZDQyLTkwYjUtZWY5ZDQ1MjYwNDZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY1200_CR113,0,630,1200_AL_.jpg"
-            ,des: "",
-            video:""
+            ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
+            video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
         TheOldGuard: {
             name: "TheOldGuard",
             date: "2013",
             type: "Action Movie",
             img: "https://m.media-amazon.com/images/M/MV5BNDJiZDliZDAtMjc5Yy00MzVhLThkY2MtNDYwNTQ2ZTM5MDcxXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg"
-            ,des: "",
-            video:""
+            ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
+            video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
         LegacyfLies: {
             name: "LegacyfLies",
             date: "2017",
             type: "Action Movie",
             img: "https://media-cache.cinematerial.com/p/500x/qtpvzi0x/legacy-of-lies-french-dvd-movie-cover.jpg?v=1606119274"
-            ,des: "",
-            video:""
+            ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
+            video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
         BLACKKKLANSMAN: {
             name: "BLACKKKLANSMAN",
@@ -148,24 +148,24 @@ const movies = [
             date: "2015",
             type: "Action Movie",
             img: "https://m.media-amazon.com/images/M/MV5BN2M5MzE4NTMtMDNmOC00ZDQyLTkwYjUtZWY5ZDQ1MjYwNDZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY1200_CR113,0,630,1200_AL_.jpg"
-            ,des: "",
-            video:""
+            ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
+            video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
         TheOldGuard: {
             name: "TheOldGuard",
             date: "2013",
             type: "Action Movie",
             img: "https://m.media-amazon.com/images/M/MV5BNDJiZDliZDAtMjc5Yy00MzVhLThkY2MtNDYwNTQ2ZTM5MDcxXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg"
-            ,des: "",
-            video:""
+            ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
+            video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
         LegacyfLies: {
             name: "LegacyfLies",
             date: "2017",
             type: "Action Movie",
             img: "https://media-cache.cinematerial.com/p/500x/qtpvzi0x/legacy-of-lies-french-dvd-movie-cover.jpg?v=1606119274"
-            ,des: "",
-            video:""
+            ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
+            video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
         BLACKKKLANSMAN: {
             name: "BLACKKKLANSMAN",
@@ -180,40 +180,40 @@ const movies = [
             date: "2020",
             type: "Action Movie",
             img: "https://lh3.googleusercontent.com/proxy/-gd7AZ-mQpyeB572UFj3sXs07Vt5gvMM0YuRYevXaWSsBUJxrv_LivhLksC35ailtLstk3dy21Z-BKObZPxTuLDSFVsunCIGd8oXOoM"
-            ,des: "",
-            video:""
+            ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
+            video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
         HardKill: {
             name: "HardKill",
             date: "2019",
             type: "Action Movie",
             img: "https://cdn.hmv.com/r/w-1280/hmv/files/aa/aa6d7b6b-6b76-49f7-9c8d-43acc534bf9c.jpg"
-            ,des: "",
-            video:""
+            ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
+            video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
         Greenland2020: {
             name: "Greenland2020",
             date: "2011",
             type: "Action Movie",
             img: "https://m.media-amazon.com/images/M/MV5BMzcyMzU4MDUtM2JhOC00ZDg2LTg5MGMtZjc2OGMyMjhlMGE2XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
-            ,des: "",
-            video:""
+            ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
+            video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
         TheOutpost: {
             name: "TheOutpost",
             date: "2020",
             type: "Action Movie",
             img: "https://lh3.googleusercontent.com/proxy/-gd7AZ-mQpyeB572UFj3sXs07Vt5gvMM0YuRYevXaWSsBUJxrv_LivhLksC35ailtLstk3dy21Z-BKObZPxTuLDSFVsunCIGd8oXOoM"
-            ,des: "",
-            video:""
+            ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
+            video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
         LostBullet: {
             name: "LostBullet",
             date: "2015",
             type: "Action Movie",
             img: "https://m.media-amazon.com/images/M/MV5BN2M5MzE4NTMtMDNmOC00ZDQyLTkwYjUtZWY5ZDQ1MjYwNDZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY1200_CR113,0,630,1200_AL_.jpg"
-            ,des: "",
-            video:""
+            ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
+            video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
         Avatar : {
             name: "Avatar",
