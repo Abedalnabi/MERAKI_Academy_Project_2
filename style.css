@@ -125,6 +125,18 @@ button:hover {
 }
 .All:hover{
     transform: translateY(15px);
+    transition: all ease .7s;
+}
+.year{
+    position: relative;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #1f1f1f;
+    color: white;
+    padding-left: 5px 20px;
+    font-weight: 500;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.562);
 }
 .All {
 display: flex;

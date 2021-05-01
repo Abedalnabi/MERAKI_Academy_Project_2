@@ -105,12 +105,13 @@ movies.forEach(function(ele,i){
             const allMovies = $(`
             <div class="All">  
                 <div >
+                    <div class = year > ${movies[i][key][key2].date}</div>
                     <img class="AllImage" id=${movies[i][key][key2].name}  src=${movies[i][key][key2].img}>
                 </div>
                 <div class="Des">
                     <h2 id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
                     <h2 id="type">${movies[i][key][key2].type}</h2>
-                    <h2>${movies[i][key][key2].date}<h2> 
+                    
 
                 </div> 
             </div>`)
@@ -151,12 +152,12 @@ movies.forEach(function(ele,i){
             const allMovies = $(`
             <div class="All">  
                 <div >
+                <div class = year > ${movies[i][key][key2].date}</div>
                     <img class="AllImage" id=${movies[i][key][key2].name}  src=${movies[i][key][key2].img}>
                 </div>
                 <div class="Des">
                     <h2 id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
                     <h2 id="type">${movies[i][key][key2].type}</h2>
-                    <h2>${movies[i][key][key2].date}<h2> 
                     
 
                 </div> 
@@ -170,6 +171,7 @@ movies.forEach(function(ele,i){
                 const DetailsForDrama= $(`
                 <div class="DetailsAll">  
                 <div >
+                <div class = year > ${movies[i][key][key2].date}</div>
                     <img class="DetailsIMg" id=${movies[i][key][key2].name}  src=${movies[i][key][key2].img}>
                 </div>
                 <div class="Des">
@@ -201,12 +203,12 @@ movies.forEach(function(ele,i){
             const allMovies = $(`
             <div class="All">  
                 <div >
+                <div class = year > ${movies[i][key][key2].date}</div>
                     <img class="AllImage" id=${movies[i][key][key2].name}  src=${movies[i][key][key2].img}>
                 </div>
                 <div class="Des">
                     <h2 id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
                     <h2 id="type">${movies[i][key][key2].type}</h2>
-                    <h2>${movies[i][key][key2].date}<h2> 
 
                 </div> 
             </div>`)
