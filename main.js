@@ -350,7 +350,7 @@ const ditails = $(".ditails")
 const FAV= $(".FAV")
 const footer =$(".footer")
 
-////////////////////////////////////////////////////////////////////////
+///FAV FUN
 const favoritesFun =()=>{
 console.log($(".dateDetails").text())
 
@@ -379,7 +379,8 @@ let fav
     FAV.hide()
     
 }
-///////////////////////////////////////////////////////////////////////////////////
+//All Movie FUN
+
 const allMovies = ()=> {
     baner.hide()
 movies.forEach(function(ele,i){
@@ -424,6 +425,7 @@ movies.forEach(function(ele,i){
 })
 
 }
+//Drama Movie FUN
 
 const DramaMoviesFun = ()=> {
     baner.hide()
@@ -475,6 +477,7 @@ movies.forEach(function(ele,i){
 
 }
 
+//Action Movie FUN
 
 const ActionMoviesFun = ()=> {
     baner.hide()
@@ -524,6 +527,8 @@ movies.forEach(function(ele,i){
 })
 
 }
+
+//TV Serios FUN
 const Tvserios = ()=> {
     baner.hide()
 movies.forEach(function(ele,i){
@@ -579,7 +584,7 @@ movies.forEach(function(ele,i){
 
 }
 
-///////////////////////////////////////
+//About us Button FUN
 const aboutus = $(".AboutUs")
 u=0
 aboutus.on("click",()=>{
@@ -603,11 +608,8 @@ const about = $(`
 
     body.append(about)}
 })
-///////////////////////////////////////
+//Buttons FUN
 const upperPage = $(".upperPage")
-
-
-
 allmoviesButton1.on("click" ,allMovies)
 ActionMovies.on("click" ,ActionMoviesFun)
 DramaMovies.on("click" ,DramaMoviesFun)
