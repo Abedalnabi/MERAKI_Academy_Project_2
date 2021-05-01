@@ -254,6 +254,10 @@ footer{
     font-size: 15px;
     height: 108px;
 }
+
+.COLOR{
+    color: red;
+}
 /*
 .baner{
     display: grid;
