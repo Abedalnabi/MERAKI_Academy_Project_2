@@ -1,12 +1,16 @@
 *{
     margin: 0;
     padding: 0;
+    transition-duration: .6s;
+
     
 }
 body{
     font-family: 'Roboto', sans-serif;
     /* font-family: 'Sen', sans-serif; */
-    background-color: rgb(255, 255, 255);    
+    background-color: rgb(255, 255, 255);   
+    transition-duration: .6s;
+
 
 }
 
@@ -192,6 +196,7 @@ margin-top: 43px;
 #type {
     color: rgba(18, 24, 66, 59%);
     margin: 0px;
+    
 }
 .Des{
     width: 100%;

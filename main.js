@@ -351,9 +351,10 @@ const FAV= $(".FAV")
 const footer =$(".footer")
 
 ///FAV FUN
+arr=[]
 const favoritesFun =()=>{
+    
 console.log($(".dateDetails").text())
-
 let z= $(".dateDetails").text()
 let c = $(".typeddetails").text()
 let v =  $(".namedetalis").text()
@@ -374,9 +375,11 @@ let fav
             </div>
     `)
     FAV.append(fav)
-    localStorage.setItem("key",FAV.append(fav));
-    let locaal = localStorage.getItem("key")
-    FAV.hide()
+    let ddddd
+    localStorage.setItem("key", JSON.stringify(ddddd))
+    console.log(ddddd)
+    FAV.append(ddddd)
+    arr.push(ddddd)
     
 }
 //All Movie FUN
@@ -630,7 +633,14 @@ $(".Tvserios").on("click" , ()=>{
 
 })
 
+const Myfaverite = $(".Myfaverite")
 
+Myfaverite.on('click',()=>{
+
+    baner.hide()
+    favoritesFun()
+    
+})
 
 
 
