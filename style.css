@@ -53,10 +53,13 @@ a {
     color: white;
 }
 #nobuton{
-    padding: 50px 50px;   
-    width: 50px;
+    width: 150px;
+    font-size: large;
+    position: relative;
+    height: 37px;
+    top: 449px;
+    right: 100px;
     height: 50px;
-    font-size: 5px;
 
 }
 
@@ -130,6 +133,7 @@ button:hover {
 .year{
     position: relative;
     top: 0%;
+    text-align: center;
     left: 50%;
     transform: translate(-50%);
     background-color: #1f1f1f;
@@ -188,7 +192,15 @@ margin-top: 43px;
     margin: 10px;
     font-weight: 1;
 }
-
+.Des1{
+    display: flex;
+    flex-direction: column;
+    gap:17px ;
+    width: 1000px;
+    margin-left: 60px;
+    font-size: large;
+    font-style: oblique;
+}
     
 
 .H1{
@@ -213,6 +225,22 @@ footer{
     position: relative;
     top: 20px;
     left: 20px;
+}
+
+.DetailsAll{
+    display: flex;
+    position: relative;
+    left: 15px;
+    margin-top: 120px;
+
+}
+.DetailsIMg{
+    height: 614px;
+    width: 407px;
+}
+
+#size{
+    font-size: 15px;
 }
 /*
 .baner{

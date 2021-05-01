@@ -9,7 +9,10 @@ const movies = [
             name: "Avatar",
             date: "2009",
             type: "Action Movie",
-            img: "https://images-na.ssl-images-amazon.com/images/I/61ADl6omqPL._AC_SL1500_.jpg"},
+            img: "https://images-na.ssl-images-amazon.com/images/I/61ADl6omqPL._AC_SL1500_.jpg",
+            des :`Avatar (marketed as James Cameron's Avatar) is a 2009 American[7][8] epic science fiction film directed, written, produced, and co-edited by James Cameron and starring Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, and Sigourney Weaver. The film is set in the mid-22nd century when humans are colonizing Pandora, a lush habitable moon of a gas giant in the Alpha Centauri star system, in order to mine the mineral unobtanium,[9][10] a room-temperature superconductor.[11] The expansion of the mining colony threatens the continued existence of a local tribe of Na'vi – a humanoid species indigenous to Pandora. The film's title refers to a genetically engineered Na'vi body operated from the brain of a remotely located human that is used to interact with the natives of Pandora.`,
+            video: `https://www.youtube.com/embed/5PSNL1qE6VY`
+        },
 
         godzilla: {
             name: "godzilla",
@@ -124,15 +127,18 @@ movies.forEach(function(ele,i){
                 console.log("GSddddddddddDFg")
                 const DetailsForDrama= $(`
                 <div class="DetailsAll">  
-                <div >
+                    <div >
                     <img class="DetailsIMg" id=${movies[i][key][key2].name}  src=${movies[i][key][key2].img}>
-                </div>
-                <div class="Des">
-                    <h2 class = namedetalis id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
-                    <h2 class = typeddetails" id="type">${movies[i][key][key2].type}</h2>
-                    <h2 class = dateDetails >${movies[i][key][key2].date}<h2> 
-                    <button id"nobuton" onclick="favoritesFun()">Add to favorites</button>
-                </div> 
+                    </div>
+                    <div class="Des1">
+                        <h2 class = namedetalis id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
+                        <p id = size>${movies[i][key][key2].des}</p>
+                        <h2 class = typeddetails" id="type">${movies[i][key][key2].type}</h2>
+                        <h2 class = dateDetails >${movies[i][key][key2].date}<h2> 
+                        <iframe width="700" height="315" src="${movies[i][key][key2].video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div> 
+                    <button id="nobuton" onclick="favoritesFun()">Add to favorites</button>
+
                 </div>
                 `)
                 ditails.append(DetailsForDrama)
@@ -177,7 +183,7 @@ movies.forEach(function(ele,i){
                 <div class = year > ${movies[i][key][key2].date}</div>
                     <img class="DetailsIMg" id=${movies[i][key][key2].name}  src=${movies[i][key][key2].img}>
                 </div>
-                <div class="Des">
+                <div class="Des1">
                     <h2 id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
                     <h2 id="type">${movies[i][key][key2].type}</h2>
                     <h2>${movies[i][key][key2].date}<h2> 
@@ -227,7 +233,7 @@ movies.forEach(function(ele,i){
                 <div >
                     <img class="DetailsIMg" id=${movies[i][key][key2].name}  src=${movies[i][key][key2].img}>
                 </div>
-                <div class="Des">
+                <div class="Des1">
                     <h2 id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
                     <h2 id="type">${movies[i][key][key2].type}</h2>
                     <h2>${movies[i][key][key2].date}<h2> 
