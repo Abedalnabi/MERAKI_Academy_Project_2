@@ -182,7 +182,57 @@ const movies = [
             img: "https://lh3.googleusercontent.com/proxy/-gd7AZ-mQpyeB572UFj3sXs07Vt5gvMM0YuRYevXaWSsBUJxrv_LivhLksC35ailtLstk3dy21Z-BKObZPxTuLDSFVsunCIGd8oXOoM"
             ,des: "",
             video:""
+        },
+        HardKill: {
+            name: "HardKill",
+            date: "2019",
+            type: "Action Movie",
+            img: "https://cdn.hmv.com/r/w-1280/hmv/files/aa/aa6d7b6b-6b76-49f7-9c8d-43acc534bf9c.jpg"
+            ,des: "",
+            video:""
+        },
+        Greenland2020: {
+            name: "Greenland2020",
+            date: "2011",
+            type: "Action Movie",
+            img: "https://m.media-amazon.com/images/M/MV5BMzcyMzU4MDUtM2JhOC00ZDg2LTg5MGMtZjc2OGMyMjhlMGE2XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+            ,des: "",
+            video:""
+        },
+        TheOutpost: {
+            name: "TheOutpost",
+            date: "2020",
+            type: "Action Movie",
+            img: "https://lh3.googleusercontent.com/proxy/-gd7AZ-mQpyeB572UFj3sXs07Vt5gvMM0YuRYevXaWSsBUJxrv_LivhLksC35ailtLstk3dy21Z-BKObZPxTuLDSFVsunCIGd8oXOoM"
+            ,des: "",
+            video:""
+        },
+        LostBullet: {
+            name: "LostBullet",
+            date: "2015",
+            type: "Action Movie",
+            img: "https://m.media-amazon.com/images/M/MV5BN2M5MzE4NTMtMDNmOC00ZDQyLTkwYjUtZWY5ZDQ1MjYwNDZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY1200_CR113,0,630,1200_AL_.jpg"
+            ,des: "",
+            video:""
+        },
+        Avatar : {
+            name: "Avatar",
+            date: "2009",
+            type: "Action Movie",
+            img: "https://images-na.ssl-images-amazon.com/images/I/61ADl6omqPL._AC_SL1500_.jpg",
+            des :`Avatar (marketed as James Cameron's Avatar) is a 2009 American[7][8] epic science fiction film directed, written, produced, and co-edited by James Cameron and starring Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, and Sigourney Weaver. The film is set in the mid-22nd century when humans are colonizing Pandora, a lush habitable moon of a gas giant in the Alpha Centauri star system, in order to mine the mineral unobtanium,[9][10] a room-temperature superconductor.[11] The expansion of the mining colony threatens the continued existence of a local tribe of Na'vi – a humanoid species indigenous to Pandora. The film's title refers to a genetically engineered Na'vi body operated from the brain of a remotely located human that is used to interact with the natives of Pandora.`,
+            video: `https://www.youtube.com/embed/5PSNL1qE6VY`
+        },
+
+        godzilla: {
+            name: "godzilla",
+            date: "2021",
+            type: "Action Movie",
+            img: "https://mlpnk72yciwc.i.optimole.com/cqhiHLc.WqA8~2eefa/w:600/h:888/q:75/https://bleedingcool.com/wp-content/uploads/2021/03/godzilla_vs_kong_ver12_xlg.jpg"
+            ,des: "Godzilla vs. Kong is a 2021 American monster film directed by Adam Wingard. A sequel to Godzilla: King of the Monsters (2019) and Kong: Skull Island (2017), it is the fourth film in Legendary's MonsterVerse. It is also the 36th film in the Godzilla franchise, the 12th film in the King Kong franchise, and the fourth Godzilla film to be completely produced by a Hollywood studio.[b] The film stars Alexander Skarsgård, Millie Bobby Brown, Rebecca Hall, Brian Tyree Henry, Shun Oguri, Eiza González, Julian Dennison, Lance Reddick, Kyle Chandler, and Demián Bichir. In the film, Kong clashes with Godzilla as humans lure the ape into the Hollow Earth to retrieve a power source for a weapon to stop Godzilla's mysterious rampages.",
+            video:"https://www.youtube.com/embed/odM92ap8_c0"
         }
+        
     }
 },
 ]
