@@ -9,25 +9,25 @@ const movies = [
             name: "Avatar",
             date: "2009",
             type: "Action Movie",
-            img: "121233.jpg"},
+            img: "https://images-na.ssl-images-amazon.com/images/I/61ADl6omqPL._AC_SL1500_.jpg"},
 
         godzilla: {
             name: "godzilla",
             date: "2021",
             type: "Action Movie",
-            img: "121233.jpg"},
+            img: "https://mlpnk72yciwc.i.optimole.com/cqhiHLc.WqA8~2eefa/w:600/h:888/q:75/https://bleedingcool.com/wp-content/uploads/2021/03/godzilla_vs_kong_ver12_xlg.jpg"},
 
         Inception: {
             name: "Inception",
             date: "2010",
             type: "Action Movie",
-            img: "121233.jpg"},
+            img: "https://cdn11.bigcommerce.com/s-ydriczk/images/stencil/1280x1280/products/82896/82479/inception_original_us_one_sheet_buy_now_at_starstills__53755__70259.1394512651.jpg?c=2"},
 
         Bloodshot : {
             name: "Bloodshot",
             date: "2021",
             type: "Action Movie",
-            img: "121233.jpg"},
+            img: "https://pics.filmaffinity.com/Bloodshot-229984487-large.jpg"},
     }
 },
 {
@@ -36,22 +36,22 @@ const movies = [
             name: "BLACK_PANTHER",
             date: "2018",
             type: "Drama Movie",
-            img: "121233.jpg"},
+            img: "https://i.pinimg.com/originals/4f/89/3c/4f893ce0705c9a0e32336da67e098051.jpg"},
         BLACKKKLANSMAN: {
             name: "BLACKKKLANSMAN",
             date: "2018",
             type: "Drama Movie",
-            img: "121233.jpg"},
+            img: "https://i.pinimg.com/originals/bc/63/82/bc6382b2bbb06785b11d3c98172d9ced.jpg"},
         DUNKIRK: {
             name: "DUNKIRK",
             date: "2017",
             type: "Drama Movie",
-            img: "121233.jpg"},
+            img: "https://m.media-amazon.com/images/I/91a9Ez60pmL._AC_SY741_.jpg"},
         BLACKPANTHER2: {
             name: "BLACK_PANTHER2",
             date: "2018",
             type: "Drama Movie",
-            img: "121233.jpg"},
+            img: "https://cdna.artstation.com/p/assets/images/images/020/321/338/large/jakub-maslowski-black-panther-ii.jpg?1567335561"},
     }
 },
 ]
@@ -248,6 +248,7 @@ movies.forEach(function(ele,i){
 const aboutus = $(".AboutUs")
 u=0
 aboutus.on("click",()=>{
+footer.hide()
 baner.hide()
 other.hide()
 u++
