@@ -612,13 +612,27 @@ const about = $(`
     body.append(about)}
 })
 ///////////////////////////////////////
+const upperPage = $(".upperPage")
+
+
 
 allmoviesButton1.on("click" ,allMovies)
 ActionMovies.on("click" ,ActionMoviesFun)
 DramaMovies.on("click" ,DramaMoviesFun)
 
-$(".movieall").on("click" ,allMovies)
-$(".Tvserios").on("click" , Tvserios)
+$(".movieall").on("click" , ()=>{
+    other.html("")
+    allMovies()
+})
+
+
+
+
+
+$(".Tvserios").on("click" , ()=>{
+    other.html("")
+    Tvserios()
+})
 
 
 
