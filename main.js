@@ -622,16 +622,21 @@ DramaMovies.on("click" ,DramaMoviesFun)
 
 $(".movieall").on("click" , ()=>{
     other.html("")
+    other.show()
+    footer.html("")
     allMovies()
-})
 
+})
 
 
 
 
 $(".Tvserios").on("click" , ()=>{
     other.html("")
+    other.show()
     Tvserios()
+    footer(hide)
+
 })
 
 
