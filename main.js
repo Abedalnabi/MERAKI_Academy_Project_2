@@ -8,25 +8,25 @@ const movies = [
         Avatar : {
             name: "Avatar",
             date: "2009",
-            type: "Action",
+            type: "Action Movie",
             img: "121233.jpg"},
 
         godzilla: {
             name: "godzilla",
             date: "2021",
-            type: "Action",
+            type: "Action Movie",
             img: "121233.jpg"},
 
         Inception: {
             name: "Inception",
             date: "2010",
-            type: "Action",
+            type: "Action Movie",
             img: "121233.jpg"},
 
         Bloodshot : {
             name: "Bloodshot",
             date: "2021",
-            type: "Action",
+            type: "Action Movie",
             img: "121233.jpg"},
     }
 },
@@ -35,22 +35,22 @@ const movies = [
         BLACKPANTHER: {
             name: "BLACK_PANTHER",
             date: "2018",
-            type: "Drama",
+            type: "Drama Movie",
             img: "121233.jpg"},
         BLACKKKLANSMAN: {
             name: "BLACKKKLANSMAN",
             date: "2018",
-            type: "Drama",
+            type: "Drama Movie",
             img: "121233.jpg"},
         DUNKIRK: {
             name: "DUNKIRK",
             date: "2017",
-            type: "Drama",
+            type: "Drama Movie",
             img: "121233.jpg"},
         BLACKPANTHER2: {
             name: "BLACK_PANTHER2",
             date: "2018",
-            type: "Drama",
+            type: "Drama Movie",
             img: "121233.jpg"},
     }
 },
