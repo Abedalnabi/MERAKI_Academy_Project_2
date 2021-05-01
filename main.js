@@ -63,6 +63,7 @@ const ActionMovies  =   $(".Action")
 const DramaMovies=      $(".Drama")
 const ditails = $(".ditails")
 const FAV= $(".FAV")
+const footer =$(".footer")
 
 ////////////////////////////////////////////////////////////////////////
 const favoritesFun =()=>{
@@ -118,6 +119,7 @@ movies.forEach(function(ele,i){
             other.append(allMovies)
             let a= movies[i][key][key2].name
             $(`#${a}`).on("click", ()=>{
+                footer.hide()
                 other.hide()
                 console.log("GSddddddddddDFg")
                 const DetailsForDrama= $(`
@@ -166,6 +168,7 @@ movies.forEach(function(ele,i){
             other.append(allMovies)
             let a= movies[i][key][key2].name
             $(`#${a}`).on("click", ()=>{
+                footer.hide()
                 other.hide()
                 console.log("GSddddddddddDFg")
                 const DetailsForDrama= $(`
@@ -216,6 +219,7 @@ movies.forEach(function(ele,i){
             other.append(allMovies)
             let a= movies[i][key][key2].name
             $(`#${a}`).on("click", ()=>{
+                footer.hide()
                 other.hide()
                 console.log("GSddddddddddDFg")
                 const DetailsForDrama= $(`

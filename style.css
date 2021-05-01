@@ -144,7 +144,7 @@ flex-direction: column;
 width: 255px;
 align-items: center;
 cursor: pointer;
-height: 357px;
+height: 395px;
 box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.562);  
 border-radius: 10px;
 overflow: hidden;
@@ -207,6 +207,12 @@ margin-top: 43px;
     width: 90%;
 
     
+}
+
+footer{
+    position: relative;
+    top: 20px;
+    left: 20px;
 }
 /*
 .baner{
