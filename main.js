@@ -5,8 +5,8 @@ const body = $("body")
 const movies = [
 {
     action: {
-        Avatar : {
-            name: "Avatar",
+        Avatarr : {
+            name: "Avatarr",
             date: "2009",
             type: "Action Movie",
             img: "https://images-na.ssl-images-amazon.com/images/I/61ADl6omqPL._AC_SL1500_.jpg",
@@ -14,8 +14,8 @@ const movies = [
             video: `https://www.youtube.com/embed/5PSNL1qE6VY`
         },
 
-        godzilla: {
-            name: "godzilla",
+        godzilla1: {
+            name: "godzilla1",
             date: "2021",
             type: "Action Movie",
             img: "https://mlpnk72yciwc.i.optimole.com/cqhiHLc.WqA8~2eefa/w:600/h:888/q:75/https://bleedingcool.com/wp-content/uploads/2021/03/godzilla_vs_kong_ver12_xlg.jpg"
@@ -69,7 +69,7 @@ const movies = [
             name: "TheOutpost",
             date: "2020",
             type: "Action Movie",
-            img: "https://lh3.googleusercontent.com/proxy/-gd7AZ-mQpyeB572UFj3sXs07Vt5gvMM0YuRYevXaWSsBUJxrv_LivhLksC35ailtLstk3dy21Z-BKObZPxTuLDSFVsunCIGd8oXOoM"
+            img: "https://eplay-prod.s3.eu-west-1.amazonaws.com/store/movie_region_poster/32279/file/movie_detail_image/ed6f38d7a57e1ed4191a556753d4de76.jpg"
             ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
             video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
@@ -81,7 +81,7 @@ const movies = [
             ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
             video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
-        TheOldGuard: {
+        TheOldGuard3: {
             name: "TheOldGuard",
             date: "2013",
             type: "Action Movie",
@@ -100,7 +100,7 @@ const movies = [
         BLACKKKLANSMAN: {
             name: "BLACKKKLANSMAN",
             date: "2018",
-            type: "Drama Movie",
+            type: "Action Movie",
             img: "https://i.pinimg.com/originals/bc/63/82/bc6382b2bbb06785b11d3c98172d9ced.jpg"
             ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
             video:"https://www.youtube.com/embed/vOUVVDWdXbo"
@@ -177,32 +177,25 @@ const movies = [
             ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
             video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
-        Lupin: {
-            name: "LostBullet",
-            date: "2021",
-            type: "Tv Serios",
-            img: "https://m.media-amazon.com/images/M/MV5BN2M5MzE4NTMtMDNmOC00ZDQyLTkwYjUtZWY5ZDQ1MjYwNDZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY1200_CR113,0,630,1200_AL_.jpg"
-            ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
-            video:"https://www.youtube.com/embed/vOUVVDWdXbo"
-        },
-        TheOldGuard: {
-            name: "TheOldGuard",
+        
+        TheOldGuard1: {
+            name: "TheOldGuard1",
             date: "2013",
             type: "Tv Serios",
             img: "https://m.media-amazon.com/images/M/MV5BNDJiZDliZDAtMjc5Yy00MzVhLThkY2MtNDYwNTQ2ZTM5MDcxXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg"
             ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
             video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
-        LegacyfLies: {
-            name: "LegacyfLies",
+        LegacyfLies1: {
+            name: "LegacyfLies1",
             date: "2017",
             type: "Tv Serios",
             img: "https://media-cache.cinematerial.com/p/500x/qtpvzi0x/legacy-of-lies-french-dvd-movie-cover.jpg?v=1606119274"
             ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
             video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
-        BLACKKKLANSMAN: {
-            name: "BLACKKKLANSMAN",
+        BLACKKKLANSMAN_1: {
+            name: "BLACKKKLANSMAN_1",
             date: "2018",
             type: "Tv Serios",
             img: "https://i.pinimg.com/originals/bc/63/82/bc6382b2bbb06785b11d3c98172d9ced.jpg"
@@ -223,8 +216,8 @@ const movies = [
         },
             
             
-        BLACKKKLANSMAN: {
-            name: "BLACKKKLANSMAN",
+        BLACKKKLANSMAN_3: {
+            name: "BLACKKKLANSMAN_3",
             date: "2018",
             type: "Drama Movie",
             img: "https://i.pinimg.com/originals/bc/63/82/bc6382b2bbb06785b11d3c98172d9ced.jpg"
@@ -247,50 +240,36 @@ const movies = [
             ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
             video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
-        LostBullet: {
-            name: "LostBullet",
-            date: "2015",
-            type: "Action Movie",
-            img: "https://m.media-amazon.com/images/M/MV5BN2M5MzE4NTMtMDNmOC00ZDQyLTkwYjUtZWY5ZDQ1MjYwNDZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY1200_CR113,0,630,1200_AL_.jpg"
-            ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
-            video:"https://www.youtube.com/embed/vOUVVDWdXbo"
-        },
-        TheOldGuard: {
-            name: "TheOldGuard",
+       
+        TheOldGuard2: {
+            name: "TheOldGuard2",
             date: "2013",
-            type: "Action Movie",
+            type: "Drama Movie",
             img: "https://m.media-amazon.com/images/M/MV5BNDJiZDliZDAtMjc5Yy00MzVhLThkY2MtNDYwNTQ2ZTM5MDcxXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg"
             ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
             video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
-        LegacyfLies: {
-            name: "LegacyfLies",
+        LegacyfLies2: {
+            name: "LegacyfLies2",
             date: "2017",
-            type: "Action Movie",
+            type: "Drama Movie",
             img: "https://media-cache.cinematerial.com/p/500x/qtpvzi0x/legacy-of-lies-french-dvd-movie-cover.jpg?v=1606119274"
             ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
             video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
-        BLACKKKLANSMAN: {
-            name: "BLACKKKLANSMAN",
+        BLACKKKLANSMAN_2: {
+            name: "BLACKKKLANSMAN_2",
             date: "2018",
             type: "Drama Movie",
             img: "https://i.pinimg.com/originals/bc/63/82/bc6382b2bbb06785b11d3c98172d9ced.jpg"
             ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
             video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
-        TheOutpost: {
-            name: "TheOutpost",
-            date: "2020",
-            type: "Action Movie",
-            img: "https://lh3.googleusercontent.com/proxy/-gd7AZ-mQpyeB572UFj3sXs07Vt5gvMM0YuRYevXaWSsBUJxrv_LivhLksC35ailtLstk3dy21Z-BKObZPxTuLDSFVsunCIGd8oXOoM"
-            ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
-            video:"https://www.youtube.com/embed/vOUVVDWdXbo"
-        },
+        
         HardKill: {
             name: "HardKill",
             date: "2019",
-            type: "Action Movie",
+            type: "Drama Movie",
             img: "https://cdn.hmv.com/r/w-1280/hmv/files/aa/aa6d7b6b-6b76-49f7-9c8d-43acc534bf9c.jpg"
             ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
             video:"https://www.youtube.com/embed/vOUVVDWdXbo"
@@ -298,31 +277,17 @@ const movies = [
         Greenland2020: {
             name: "Greenland2020",
             date: "2011",
-            type: "Action Movie",
+            type: "Drama Movie",
             img: "https://m.media-amazon.com/images/M/MV5BMzcyMzU4MDUtM2JhOC00ZDg2LTg5MGMtZjc2OGMyMjhlMGE2XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
             ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
             video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
-        TheOutpost: {
-            name: "TheOutpost",
-            date: "2020",
-            type: "Action Movie",
-            img: "https://lh3.googleusercontent.com/proxy/-gd7AZ-mQpyeB572UFj3sXs07Vt5gvMM0YuRYevXaWSsBUJxrv_LivhLksC35ailtLstk3dy21Z-BKObZPxTuLDSFVsunCIGd8oXOoM"
-            ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
-            video:"https://www.youtube.com/embed/vOUVVDWdXbo"
-        },
-        LostBullet: {
-            name: "LostBullet",
-            date: "2015",
-            type: "Action Movie",
-            img: "https://m.media-amazon.com/images/M/MV5BN2M5MzE4NTMtMDNmOC00ZDQyLTkwYjUtZWY5ZDQ1MjYwNDZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY1200_CR113,0,630,1200_AL_.jpg"
-            ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
-            video:"https://www.youtube.com/embed/vOUVVDWdXbo"
-        },
+        
+       
         Avatar : {
             name: "Avatar",
             date: "2009",
-            type: "Action Movie",
+            type: "Drama Movie",
             img: "https://images-na.ssl-images-amazon.com/images/I/61ADl6omqPL._AC_SL1500_.jpg",
             des :`Avatar (marketed as James Cameron's Avatar) is a 2009 American[7][8] epic science fiction film directed, written, produced, and co-edited by James Cameron and starring Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, and Sigourney Weaver. The film is set in the mid-22nd century when humans are colonizing Pandora, a lush habitable moon of a gas giant in the Alpha Centauri star system, in order to mine the mineral unobtanium,[9][10] a room-temperature superconductor.[11] The expansion of the mining colony threatens the continued existence of a local tribe of Na'vi – a humanoid species indigenous to Pandora. The film's title refers to a genetically engineered Na'vi body operated from the brain of a remotely located human that is used to interact with the natives of Pandora.`,
             video: `https://www.youtube.com/embed/5PSNL1qE6VY`
@@ -331,7 +296,7 @@ const movies = [
         godzilla: {
             name: "godzilla",
             date: "2021",
-            type: "Action Movie",
+            type: "Drama Movie",
             img: "https://mlpnk72yciwc.i.optimole.com/cqhiHLc.WqA8~2eefa/w:600/h:888/q:75/https://bleedingcool.com/wp-content/uploads/2021/03/godzilla_vs_kong_ver12_xlg.jpg"
             ,des: "Godzilla vs. Kong is a 2021 American monster film directed by Adam Wingard. A sequel to Godzilla: King of the Monsters (2019) and Kong: Skull Island (2017), it is the fourth film in Legendary's MonsterVerse. It is also the 36th film in the Godzilla franchise, the 12th film in the King Kong franchise, and the fourth Godzilla film to be completely produced by a Hollywood studio.[b] The film stars Alexander Skarsgård, Millie Bobby Brown, Rebecca Hall, Brian Tyree Henry, Shun Oguri, Eiza González, Julian Dennison, Lance Reddick, Kyle Chandler, and Demián Bichir. In the film, Kong clashes with Godzilla as humans lure the ape into the Hollow Earth to retrieve a power source for a weapon to stop Godzilla's mysterious rampages.",
             video:"https://www.youtube.com/embed/odM92ap8_c0"
@@ -340,7 +305,7 @@ const movies = [
     }
 },
 ]
-
+////////////////////////////// Variables
 const baner  = $(".BANEER")
 const other =$(".other")
 const allmoviesButton1 = $(".allmoviesButton")
@@ -350,7 +315,8 @@ const ditails = $(".ditails")
 const FAV= $(".FAV")
 const footer =$(".footer")
 
-///FAV FUN
+/////////////////////////////////////FAV FUN
+
 arr=[]
 const favoritesFun =()=>{
     
@@ -374,18 +340,19 @@ let fav
                 </div> 
             </div>
     `)
-    FAV.append(fav)
-    let ddddd
-    localStorage.setItem("key", JSON.stringify(ddddd))
-    console.log(ddddd)
-    FAV.append(ddddd)
-    arr.push(ddddd)
+    // FAV.append(fav)
+    // let ddddd
+    // localStorage.setItem("key", JSON.stringify(ddddd))
+    // console.log(ddddd)
+    // FAV.append(ddddd)
+    // arr.push(ddddd)
     
 }
-//All Movie FUN
+//////////////////////////////////All Movie FUN
 
 const allMovies = ()=> {
     baner.hide()
+
 movies.forEach(function(ele,i){
     for(const key in movies[i]){
         for(const key2 in movies[i][key]){
@@ -396,7 +363,7 @@ movies.forEach(function(ele,i){
                     <img class="AllImage" id=${movies[i][key][key2].name}  src=${movies[i][key][key2].img}>
                 </div>
                 <div class="Des">
-                    <h2 id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
+                    <h2 class = color9 id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
                     <h2 id="type">${movies[i][key][key2].type}</h2>
                 </div> 
             </div>`)
@@ -428,7 +395,7 @@ movies.forEach(function(ele,i){
 })
 
 }
-//Drama Movie FUN
+////////////////////////////////Drama Movie FUN
 
 const DramaMoviesFun = ()=> {
     baner.hide()
@@ -445,7 +412,7 @@ movies.forEach(function(ele,i){
                     <img class="AllImage" id=${movies[i][key][key2].name}  src=${movies[i][key][key2].img}>
                 </div>
                 <div class="Des">
-                    <h2 id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
+                    <h2 class = color9 id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
                     <h2 id="type">${movies[i][key][key2].type}</h2>
                 </div> 
             </div>`)
@@ -480,10 +447,12 @@ movies.forEach(function(ele,i){
 
 }
 
-//Action Movie FUN
+/////////////////////////Action Movie FUN
 
 const ActionMoviesFun = ()=> {
     baner.hide()
+
+
 movies.forEach(function(ele,i){
     for(const key in movies[i]){
         for(const key2 in movies[i][key]){
@@ -496,7 +465,7 @@ movies.forEach(function(ele,i){
                     <img class="AllImage" id=${movies[i][key][key2].name}  src=${movies[i][key][key2].img}>
                 </div>
                 <div class="Des">
-                    <h2 id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
+                    <h2 class = color9 id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
                     <h2 id="type1">${movies[i][key][key2].type}</h2>
                 </div> 
             </div>`)
@@ -514,7 +483,7 @@ movies.forEach(function(ele,i){
                         <img class="DetailsIMg" id=${movies[i][key][key2].name}  src=${movies[i][key][key2].img}>
                     </div>
                     <div class="Des1">
-                        <h2 id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
+                        <h2  id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
                         <p id = size>${movies[i][key][key2].des}</p>
                         <h2 id="type">${movies[i][key][key2].type}</h2>
                         <h2>${movies[i][key][key2].date}<h2> 
@@ -531,9 +500,10 @@ movies.forEach(function(ele,i){
 
 }
 
-//TV Serios FUN
+///////////////////////////TV Serios FUN
 const Tvserios = ()=> {
     baner.hide()
+
 movies.forEach(function(ele,i){
     for(const key in movies[i]){
         for(const key2 in movies[i][key]){
@@ -547,7 +517,7 @@ movies.forEach(function(ele,i){
                     <img class="AllImage" id=${movies[i][key][key2].name}  src=${movies[i][key][key2].img}>
                 </div>
                 <div class="Des">
-                    <h2 id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
+                    <h2 class = color9 id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
                     <h2 class="type">${movies[i][key][key2].type}</h2>
                 </div> 
             </div>`)
@@ -586,17 +556,12 @@ movies.forEach(function(ele,i){
 })
 
 }
-
-//About us Button FUN
+/////////////////////////About us Button FUN
 const aboutus = $(".AboutUs")
-u=0
-aboutus.on("click",()=>{
-footer.hide()
-baner.hide()
-other.hide()
-u++
-if(u===1){
-const about = $(`
+const about1 = $(".aboutus1")
+function about(){
+
+    const about = $(`
     <h1 class = H1 > <span style="color: red;">Mo</span>_Movies</h1>
     <p class = P>Welcome, thank you for using our website
     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque facere cupiditate laborum sint, rerum porro vitae quidem eius reprehenderit voluptate pariatur nobis nemo architecto quod fugit, ipsum quia. Nemo, repudiandae!
@@ -606,28 +571,45 @@ const about = $(`
     <p class = P><i class='bx bxs-phone-call bx-tada' ></i>Phone :0789814895</p>
     <p class = P> <i class='bx bx-mail-send bx-tada' ></i>email:abedalnabi96@gmail.com<p>
     <p class = P><i class='bx bx-phone-incoming bx-tada' ></i>Telphone : 065894862<p>
-
     `)
 
-    body.append(about)}
-})
-//Buttons FUN
+    about1.append(about)
+}
+
+
+aboutus.on("click",()=>{
+        about1.show()
+        allbaneer.show()
+        about()
+        baner.hide()
+        other.hide()
+
+    })
+
+///////////////////////Buttons FUN
 const upperPage = $(".upperPage")
 allmoviesButton1.on("click" ,allMovies)
 ActionMovies.on("click" ,ActionMoviesFun)
 DramaMovies.on("click" ,DramaMoviesFun)
 
 $(".movieall").on("click" , ()=>{
+    allbaneer.show()
     other.html("")
     other.show()
+    about1.html("")
     footer.html("")
+    ditails.html("")
     allMovies()
 
 })
 
 $(".Tvserios").on("click" , ()=>{
+    allbaneer.show()
     other.html("")
     other.show()
+    about1.html("")
+    ditails.html("")
+
     Tvserios()
     footer(hide)
 
@@ -636,11 +618,52 @@ $(".Tvserios").on("click" , ()=>{
 const Myfaverite = $(".Myfaverite")
 
 Myfaverite.on('click',()=>{
-
+    allbaneer.show()
+    about1.html("")
     baner.hide()
     favoritesFun()
     
 })
+
+
+//////////////////// thems style
+const Changecoler =  ()=> {
+    let mainColor = true;
+    const color9 =$('.color9')
+    console.log(mainColor)
+    return  () =>{
+        if (mainColor) {
+            mainColor = false;
+            body.css({
+                "--main-color":"rgb(0, 0, 0)",
+                "--sub-color":"rgb(255, 255, 255)",
+            })
+            color9.css({
+                color: "wheat",
+
+            })
+        } else {
+            mainColor = true;
+            body.css({
+                "--main-color":"rgb(255, 255, 255)",
+                "--sub-color":"rgb(0, 0, 0)",
+                
+            })
+            
+            
+
+
+    }
+};
+};
+const colerthems = Changecoler();
+
+
+///////////////// home button
+const home = $(".home")
+const allbaneer = $(".ALL_Banner")
+
+
 
 
 
