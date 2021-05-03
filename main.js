@@ -314,23 +314,25 @@ const DramaMovies=      $(".Drama")
 const ditails = $(".ditails")
 const FAV= $(".FAV")
 const footer =$(".footer")
-
+let conterforlocal=1
 /////////////////////////////////////FAV FUN
-
 arr=1
 arr1=1
 arr2=2
 const favoritesFun =(a)=>{
-console.log(a)
+
 arr++
 arr1++
 arr2++
-localStorage.setItem(JSON.stringify(a),$(".namedetalis").text())
-localStorage.setItem(`${JSON.stringify(a)}+date`,$(".dateDetails").text()) 
+
+// let b=JSON.stringify()
+// console.log(b)
+// localStorage.setItem(a,$(".namedetalis").text())
+// localStorage.setItem(a,$(".dateDetails").text()) 
 // localStorage.setItem(`${JSON.stringify(a)}+img`,$(".DetailsIMg").attr("src"))
 
 let poiu=$(".DetailsIMg").attr("src")
-console.log(poiu)
+
 
 
     // let ddddd
@@ -340,42 +342,54 @@ console.log(poiu)
     // arr.push(ddddd)
     
 }
-
+/////////////////////////-------------------
 const Myfaverite = $(".Myfaverite")
 Myfaverite.on('click',()=>{
-    FAV.html("")
+    // FAV.html("")
     other.hide()
     ditails.hide()
     allbaneer.show()
     about1.html("")
     baner.hide()
     singIn.html("")
-
+/////////////////////////////////-----------------------------------------
     let fav
     let aaaa=1
     let bbbb=0
-    for(let j=0 ; j<(localStorage.length/2);j++){
-        
+////////////////////////////
+// let key 
+// let value
+// for (let i=0 ; i<localStorage.length ;i++){
+
+//     key = localStorage.key(i)
+//     value = localStorage.getItem(key)
+//     console.log("key",key)
+//     console.log("val",value)
+// }
+
+
+/////////////////////////////////////-------------------
+
+    for(let j=1 ; j<localStorage.length;j++){
         fav = $(`
         <div class="All">  
                 <div >
-                    <img class="AllImage" id=$  src="https://images-na.ssl-images-amazon.com/images/I/61ADl6omqPL._AC_SL1500_.jpg">
+                    <img class="AllImage" id=$  src=${localStorage.getItem(j)}>
                     </div>
                     <div class="Des">
-                        <h2   >${localStorage.getItem(localStorage.key(bbbb))}<h2> 
-                        <h2 id="type">${localStorage.getItem(localStorage.key(aaaa))}</h2>
+                        <h2   >${localStorage.getItem(++j)}<h2> 
+                        <h2 id="type">${localStorage.getItem(++j)}</h2>
                     </div> 
                 </div>
         `)
         FAV.append(fav)
-        aaaa=aaaa+2
-        bbbb=bbbb+2
     }
     
     
 
     
 })
+////////////////////////////////////----------------------------------------------------------------
 //////////////////////////////////All Movie FUN
 
 const allMovies = ()=> {
@@ -415,14 +429,46 @@ movies.forEach(function(ele,i){
                         <h2 class = dateDetails >${movies[i][key][key2].date}<h2> 
                         <iframe width="700" height="315" src="${movies[i][key][key2].video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div> 
-                    <button id="nobuton" onclick="favoritesFun(${movies[i][key][key2].name})">Add to favorites</button>
+                    <button id= "nobuton" >Add to favorites</button>
+
                 </div>
+                
                 `)
                 
+                
                 ditails.append(DetailsForDrama)
+                arryForFav =[]
+                $("#nobuton").on('click',()=>{
+                    // i can use array and push all the elemant to empty array and then call array in fav fun
+                    // arryForFav.push(movies[i][key][key2].img)
+                    // arryForFav.push(movies[i][key][key2].name)
+                    // arryForFav.push(movies[i][key][key2].type)
+                    localStorage.setItem('iii',conterforlocal) 
+                    localStorage.setItem(conterforlocal,movies[i][key][key2].img ) 
+                    conterforlocal++
+                    localStorage.setItem(conterforlocal,movies[i][key][key2].name ) 
+                    conterforlocal++
+                    localStorage.setItem(conterforlocal,movies[i][key][key2].type )
+                    conterforlocal++
+
+                    })
+                    // localStorage.setItem(movies[i][key][key2].name,arryForFav)
+
+                    // localStorage.setItem(`item${movies[i][key][key2].name}`,arryForFav[0])
+                    // localStorage.setItem(`item${movies[i][key][key2].img}`,arryForFav[1])
+                    // localStorage.setItem(`item${movies[i][key][key2].des}`,arryForFav[2])
+                    
+                    const Myfaverite = $(".Myfaverite")
+                    
+
+                    
+                
+                
             })
+        
         }
     }
+    
 })
 
 }
