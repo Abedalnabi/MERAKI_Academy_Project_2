@@ -319,7 +319,7 @@ const footer =$(".footer")
 
 arr=[]
 const favoritesFun =()=>{
-    
+
 console.log($(".dateDetails").text())
 let z= $(".dateDetails").text()
 let c = $(".typeddetails").text()
@@ -452,7 +452,6 @@ movies.forEach(function(ele,i){
 const ActionMoviesFun = ()=> {
     baner.hide()
 
-
 movies.forEach(function(ele,i){
     for(const key in movies[i]){
         for(const key2 in movies[i][key]){
@@ -583,6 +582,8 @@ aboutus.on("click",()=>{
         about()
         baner.hide()
         other.hide()
+        singIn.html("")
+
 
     })
 
@@ -599,6 +600,7 @@ $(".movieall").on("click" , ()=>{
     about1.html("")
     footer.html("")
     ditails.html("")
+    singIn.html("")
     allMovies()
 
 })
@@ -609,6 +611,8 @@ $(".Tvserios").on("click" , ()=>{
     other.show()
     about1.html("")
     ditails.html("")
+    singIn.html("")
+
 
     Tvserios()
     footer(hide)
@@ -622,6 +626,8 @@ Myfaverite.on('click',()=>{
     about1.html("")
     baner.hide()
     favoritesFun()
+    singIn.html("")
+
     
 })
 
@@ -663,6 +669,57 @@ const colerthems = Changecoler();
 const home = $(".home")
 const allbaneer = $(".ALL_Banner")
 
+
+///////////////Sing in FUN
+
+const singIn =$(".singIn")
+const singInbutton = $(".Sing-in")
+
+singInbutton.on('click',()=>{
+    singIn.html("")
+    baner.hide()
+    footer.hide()
+    other.hide()
+    allbaneer.hide()
+
+
+    const sing = $(`
+    <div class = regester>
+        <div> <input class=username type="text" value="some text" placeholder = 'User name'/></div>
+        <div><input class=pass type="text" value="some text" placeholder = 'Password'/></div>
+        <h3 >dont have account </h3>
+        <h3 >Regester now </h3>
+
+
+    </div>
+
+    `)
+    singIn.append(sing)
+
+})
+console.log(username1)
+
+// function singInFun(user,pass){
+//     array=[]
+//     obj ={}
+
+//     const pass =$(".pass").val
+//     let username1 =$(".username").val();
+
+//     obj.name= username1
+//     obj.pass=pass
+//     array.push(obj)
+//     array.forEach((ele,i)=>{
+//         if(obj.name){
+
+
+//         }
+
+
+//     })
+
+
+// }
 
 
 
