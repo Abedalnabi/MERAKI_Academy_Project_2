@@ -325,9 +325,9 @@ console.log(a)
 arr++
 arr1++
 arr2++
-localStorage.setItem(`${a+arr2}+name`,$(".namedetalis").text())
-localStorage.setItem(`${a+arr}+date`,$(".dateDetails").text()) 
-localStorage.setItem('item4',$(".DetailsIMg").attr("src"))
+localStorage.setItem(JSON.stringify(a),$(".namedetalis").text())
+localStorage.setItem(`${JSON.stringify(a)}+date`,$(".dateDetails").text()) 
+// localStorage.setItem(`${JSON.stringify(a)}+img`,$(".DetailsIMg").attr("src"))
 
 let poiu=$(".DetailsIMg").attr("src")
 console.log(poiu)
@@ -343,7 +343,6 @@ console.log(poiu)
 
 const Myfaverite = $(".Myfaverite")
 Myfaverite.on('click',()=>{
-    
     FAV.html("")
     other.hide()
     ditails.hide()
@@ -353,20 +352,24 @@ Myfaverite.on('click',()=>{
     singIn.html("")
 
     let fav
+    let aaaa=1
+    let bbbb=0
     for(let j=0 ; j<(localStorage.length/2);j++){
+        
         fav = $(`
         <div class="All">  
                 <div >
                     <img class="AllImage" id=$  src="https://images-na.ssl-images-amazon.com/images/I/61ADl6omqPL._AC_SL1500_.jpg">
                     </div>
                     <div class="Des">
-                        <h2   >${localStorage.getItem(localStorage.key(0))}<h2> 
-                        <h2 id="type">${localStorage.getItem(localStorage.key(1))}</h2>
+                        <h2   >${localStorage.getItem(localStorage.key(bbbb))}<h2> 
+                        <h2 id="type">${localStorage.getItem(localStorage.key(aaaa))}</h2>
                     </div> 
                 </div>
         `)
         FAV.append(fav)
-    
+        aaaa=aaaa+2
+        bbbb=bbbb+2
     }
     
     
