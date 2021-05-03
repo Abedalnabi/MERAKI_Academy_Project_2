@@ -346,16 +346,14 @@ let poiu=$(".DetailsIMg").attr("src")
 const Myfaverite = $(".Myfaverite")
 Myfaverite.on('click',()=>{
     // FAV.html("")
-    other.hide()
-    ditails.hide()
-    allbaneer.show()
-    about1.html("")
-    baner.hide()
-    singIn.html("")
+    // other.hide()
+    // ditails.hide()
+    // allbaneer.show()
+    // about1.html("")
+    // baner.hide()
+    // singIn.html("")
 /////////////////////////////////-----------------------------------------
-    let fav
-    let aaaa=1
-    let bbbb=0
+
 ////////////////////////////
 // let key 
 // let value
@@ -371,7 +369,7 @@ Myfaverite.on('click',()=>{
 /////////////////////////////////////-------------------
 
     for(let j=1 ; j<localStorage.length;j++){
-        fav = $(`
+        let fav = $(`
         <div class="All">  
                 <div >
                     <img class="AllImage" id=$  src=${localStorage.getItem(j)}>
@@ -384,10 +382,6 @@ Myfaverite.on('click',()=>{
         `)
         FAV.append(fav)
     }
-    
-    
-
-    
 })
 ////////////////////////////////////----------------------------------------------------------------
 //////////////////////////////////All Movie FUN
@@ -451,6 +445,7 @@ movies.forEach(function(ele,i){
                     localStorage.setItem(conterforlocal,movies[i][key][key2].type )
                     conterforlocal++
 
+
                     })
                     // localStorage.setItem(movies[i][key][key2].name,arryForFav)
 
@@ -458,7 +453,6 @@ movies.forEach(function(ele,i){
                     // localStorage.setItem(`item${movies[i][key][key2].img}`,arryForFav[1])
                     // localStorage.setItem(`item${movies[i][key][key2].des}`,arryForFav[2])
                     
-                    const Myfaverite = $(".Myfaverite")
                     
 
                     
