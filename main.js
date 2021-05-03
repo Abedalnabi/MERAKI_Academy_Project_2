@@ -369,6 +369,7 @@ Myfaverite.on('click',()=>{
 
 /////////////////////////////////////-------------------
     
+    
 
     for(let j=1 ; j<=localStorage.length-2;j++){
         let fav = $(`
@@ -377,7 +378,7 @@ Myfaverite.on('click',()=>{
                     <img class="AllImage" id=$  src=${localStorage.getItem(j)}>
                     </div>
                     <div class="Des">
-                        <h2   >${localStorage.getItem(++j)}<h2> 
+                        <h2 class = nameOfFav  >${localStorage.getItem(++j)}<h2> 
                         <h2 id="type">${localStorage.getItem(++j)}</h2>
                     </div> 
                 </div>
@@ -680,6 +681,30 @@ movies.forEach(function(ele,i){
                 </div>
                 `)
                 ditails.append(DetailsForDrama)
+                arryForFav =[]
+                $("#nobuton").on('click',()=>{
+                    // i can use array and push all the elemant to empty array and then call array in fav fun
+                    // arryForFav.push(movies[i][key][key2].img)
+                    // arryForFav.push(movies[i][key][key2].name)
+                    // arryForFav.push(movies[i][key][key2].type)
+                    if(localStorage.getItem('xxx')===null){
+                        console.log("FDSA")
+                        localStorage.setItem('iii',1) 
+                        localStorage.setItem('xxx',"DASDAS") 
+                    }
+                        localStorage.setItem('iii',Number(localStorage.getItem('iii'))) 
+                    
+                    localStorage.setItem(localStorage.getItem('iii'),movies[i][key][key2].img ) 
+                    localStorage.setItem('iii',Number(localStorage.getItem('iii'))+1)
+                    conterforlocal++
+                    localStorage.setItem(localStorage.getItem('iii'),movies[i][key][key2].name ) 
+                    localStorage.setItem('iii',Number(localStorage.getItem('iii'))+1)
+                    conterforlocal++
+                    localStorage.setItem(localStorage.getItem('iii'),movies[i][key][key2].type )
+                    localStorage.setItem('iii',Number(localStorage.getItem('iii'))+1)
+                    conterforlocal++
+                    })
+                
             })
         }}
     }
