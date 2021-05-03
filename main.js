@@ -434,12 +434,16 @@ movies.forEach(function(ele,i){
                 
                 
                 ditails.append(DetailsForDrama)
-                arryForFav =[]
+                arryForFav12 =["Avatarr","godzilla1","Inception"]
+                
+                
                 $("#nobuton").on('click',()=>{
                     // i can use array and push all the elemant to empty array and then call array in fav fun
                     // arryForFav.push(movies[i][key][key2].img)
                     // arryForFav.push(movies[i][key][key2].name)
                     // arryForFav.push(movies[i][key][key2].type)
+
+
                     if(localStorage.getItem('xxx')===null){
                         console.log("FDSA")
                         localStorage.setItem('iii',1) 
