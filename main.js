@@ -317,30 +317,20 @@ const footer =$(".footer")
 
 /////////////////////////////////////FAV FUN
 
-arr=[]
-const favoritesFun =()=>{
+arr=1
+arr1=1
+arr2=2
+const favoritesFun =(a)=>{
+console.log(a)
+arr++
+arr1++
+arr2++
+let z= localStorage.setItem(`${a+arr}+date`,$(".dateDetails").text() ) 
+let c = localStorage.setItem(`${a+arr1}+type`,$(".typeddetails").text())
+let v =  localStorage.setItem(`${a+arr2}+name`,$(".namedetalis").text())
+// let t = localStorage.setItem('item4',$(".DetailsIMg").attr("src"))
 
-console.log($(".dateDetails").text())
-let z= $(".dateDetails").text()
-let c = $(".typeddetails").text()
-let v =  $(".namedetalis").text()
-let t = $(".DetailsIMg").attr("src")
-console.log(t)
-let fav
 
-    fav = $(`
-    <div class="All">  
-            <div >
-                <img class="AllImage" id=$  src=${t}>
-                </div>
-                <div class="Des">
-                    <h2 id =  >${v}<h2> 
-                    <h2 id="type">${c}</h2>
-                    <h2>${z}<h2> 
-                </div> 
-            </div>
-    `)
-    // FAV.append(fav)
     // let ddddd
     // localStorage.setItem("key", JSON.stringify(ddddd))
     // console.log(ddddd)
@@ -348,10 +338,45 @@ let fav
     // arr.push(ddddd)
     
 }
+
+const Myfaverite = $(".Myfaverite")
+Myfaverite.on('click',()=>{
+    
+    FAV.show()
+    other.hide()
+    ditails.hide()
+    allbaneer.show()
+    about1.html("")
+    baner.hide()
+    singIn.html("")
+
+    let fav
+    for(let j=0 ; j<localStorage.length;j++){
+        fav = $(`
+        <div class="All">  
+                <div >
+                    <img class="AllImage" id=$  src="{t}">
+                    </div>
+                    <div class="Des">
+                        <h2   >${localStorage.getItem(localStorage.key(0))}<h2> 
+                        <h2 id="type">${localStorage.getItem(localStorage.key(2))}</h2>
+                    </div> 
+                </div>
+        `)
+        FAV.append(fav)
+    
+        j=j+2
+    }
+    
+
+    
+})
 //////////////////////////////////All Movie FUN
 
 const allMovies = ()=> {
     baner.hide()
+    ditails.show()
+    FAV.hide()
 
 movies.forEach(function(ele,i){
     for(const key in movies[i]){
@@ -385,9 +410,10 @@ movies.forEach(function(ele,i){
                         <h2 class = dateDetails >${movies[i][key][key2].date}<h2> 
                         <iframe width="700" height="315" src="${movies[i][key][key2].video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div> 
-                    <button id="nobuton" onclick="favoritesFun()">Add to favorites</button>
+                    <button id="nobuton" onclick="favoritesFun(${movies[i][key][key2].name})">Add to favorites</button>
                 </div>
                 `)
+                
                 ditails.append(DetailsForDrama)
             })
         }
@@ -399,6 +425,8 @@ movies.forEach(function(ele,i){
 
 const DramaMoviesFun = ()=> {
     baner.hide()
+    ditails.show()
+    FAV.hide()
 
 movies.forEach(function(ele,i){
     for(const key in movies[i]){
@@ -430,10 +458,10 @@ movies.forEach(function(ele,i){
                             <img class="DetailsIMg" id=${movies[i][key][key2].name}  src=${movies[i][key][key2].img}>
                     </div>
                     <div class="Des1">
-                        <h2 id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
+                        <h2 class = namedetalis id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
                         <p id = size>${movies[i][key][key2].des}</p>
-                        <h2 id="type">${movies[i][key][key2].type}</h2>
-                        <h2>${movies[i][key][key2].date}<h2> 
+                        <h2 class = typeddetails id="type">${movies[i][key][key2].type}</h2>
+                        <h2 class = dateDetails >${movies[i][key][key2].date}<h2> 
                         <iframe width="700" height="315" src="${movies[i][key][key2].video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div> 
                     <button id="nobuton" onclick="favoritesFun()">Add to favorites</button>
@@ -451,6 +479,8 @@ movies.forEach(function(ele,i){
 
 const ActionMoviesFun = ()=> {
     baner.hide()
+    ditails.show()
+    FAV.hide()
 
 movies.forEach(function(ele,i){
     for(const key in movies[i]){
@@ -482,10 +512,10 @@ movies.forEach(function(ele,i){
                         <img class="DetailsIMg" id=${movies[i][key][key2].name}  src=${movies[i][key][key2].img}>
                     </div>
                     <div class="Des1">
-                        <h2  id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
+                        <h2 class = namedetalis id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
                         <p id = size>${movies[i][key][key2].des}</p>
-                        <h2 id="type">${movies[i][key][key2].type}</h2>
-                        <h2>${movies[i][key][key2].date}<h2> 
+                        <h2 class = typeddetails id="type">${movies[i][key][key2].type}</h2>
+                        <h2 class = dateDetails>${movies[i][key][key2].date}<h2> 
                         <iframe width="700" height="315" src="${movies[i][key][key2].video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div> 
                     <button id="nobuton" onclick="favoritesFun()">Add to favorites</button>
@@ -502,6 +532,7 @@ movies.forEach(function(ele,i){
 ///////////////////////////TV Serios FUN
 const Tvserios = ()=> {
     baner.hide()
+    ditails.show()
 
 movies.forEach(function(ele,i){
     for(const key in movies[i]){
@@ -538,10 +569,10 @@ movies.forEach(function(ele,i){
                         <img class="DetailsIMg" id=${movies[i][key][key2].name}  src=${movies[i][key][key2].img}>
                     </div>
                     <div class="Des1">
-                        <h2 id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
+                        <h2 class = namedetalis id = ${movies[i][key][key2].name} >${movies[i][key][key2].name}<h2> 
                         <p id = size>${movies[i][key][key2].des}</p>
-                        <h2 id="type">${movies[i][key][key2].type}</h2>
-                        <h2>${movies[i][key][key2].date}<h2> 
+                        <h2 class = typeddetails id="type">${movies[i][key][key2].type}</h2>
+                        <h2 class = dateDetails >${movies[i][key][key2].date}<h2> 
                         <iframe width="700" height="315" src="${movies[i][key][key2].video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div> 
                     <button id="nobuton" onclick="favoritesFun()">Add to favorites</button>
@@ -594,6 +625,7 @@ ActionMovies.on("click" ,ActionMoviesFun)
 DramaMovies.on("click" ,DramaMoviesFun)
 
 $(".movieall").on("click" , ()=>{
+    FAV.hide()
     allbaneer.show()
     other.html("")
     other.show()
@@ -606,6 +638,7 @@ $(".movieall").on("click" , ()=>{
 })
 
 $(".Tvserios").on("click" , ()=>{
+    FAV.hide()
     allbaneer.show()
     other.html("")
     other.show()
@@ -615,21 +648,11 @@ $(".Tvserios").on("click" , ()=>{
 
 
     Tvserios()
-    footer(hide)
+    footer(hide)    
 
 })
 
-const Myfaverite = $(".Myfaverite")
 
-Myfaverite.on('click',()=>{
-    allbaneer.show()
-    about1.html("")
-    baner.hide()
-    favoritesFun()
-    singIn.html("")
-
-    
-})
 
 
 //////////////////// thems style
@@ -681,6 +704,7 @@ singInbutton.on('click',()=>{
     footer.hide()
     other.hide()
     allbaneer.hide()
+    FAV.hide()
 
 
     const sing = $(`
@@ -697,7 +721,7 @@ singInbutton.on('click',()=>{
     singIn.append(sing)
 
 })
-console.log(username1)
+// console.log(username1)
 
 // function singInFun(user,pass){
 //     array=[]
@@ -720,6 +744,7 @@ console.log(username1)
 
 
 // }
+
 
 
 

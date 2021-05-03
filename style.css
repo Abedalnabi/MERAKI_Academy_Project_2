@@ -313,6 +313,16 @@ footer{
 .COLOR{
     color: red;
 }
+.FAV{
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    padding: 37px;
+    width: 100%;
+    justify-content: center;
+    padding-top: 50px;
+
+
+}
 /*
 .baner{
     display: grid;
