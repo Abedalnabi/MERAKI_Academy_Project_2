@@ -325,10 +325,12 @@ console.log(a)
 arr++
 arr1++
 arr2++
-let z= localStorage.setItem(`${a+arr}+date`,$(".dateDetails").text() ) 
-let c = localStorage.setItem(`${a+arr1}+type`,$(".typeddetails").text())
-let v =  localStorage.setItem(`${a+arr2}+name`,$(".namedetalis").text())
-// let t = localStorage.setItem('item4',$(".DetailsIMg").attr("src"))
+localStorage.setItem(`${a+arr2}+name`,$(".namedetalis").text())
+localStorage.setItem(`${a+arr}+date`,$(".dateDetails").text()) 
+localStorage.setItem('item4',$(".DetailsIMg").attr("src"))
+
+let poiu=$(".DetailsIMg").attr("src")
+console.log(poiu)
 
 
     // let ddddd
@@ -342,7 +344,7 @@ let v =  localStorage.setItem(`${a+arr2}+name`,$(".namedetalis").text())
 const Myfaverite = $(".Myfaverite")
 Myfaverite.on('click',()=>{
     
-    FAV.show()
+    FAV.html("")
     other.hide()
     ditails.hide()
     allbaneer.show()
@@ -351,22 +353,22 @@ Myfaverite.on('click',()=>{
     singIn.html("")
 
     let fav
-    for(let j=0 ; j<localStorage.length;j++){
+    for(let j=0 ; j<(localStorage.length/2);j++){
         fav = $(`
         <div class="All">  
                 <div >
-                    <img class="AllImage" id=$  src="{t}">
+                    <img class="AllImage" id=$  src="https://images-na.ssl-images-amazon.com/images/I/61ADl6omqPL._AC_SL1500_.jpg">
                     </div>
                     <div class="Des">
                         <h2   >${localStorage.getItem(localStorage.key(0))}<h2> 
-                        <h2 id="type">${localStorage.getItem(localStorage.key(2))}</h2>
+                        <h2 id="type">${localStorage.getItem(localStorage.key(1))}</h2>
                     </div> 
                 </div>
         `)
         FAV.append(fav)
     
-        j=j+2
     }
+    
     
 
     
