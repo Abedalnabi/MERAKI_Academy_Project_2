@@ -522,6 +522,29 @@ movies.forEach(function(ele,i){
                 </div>
                 `)
                 ditails.append(DetailsForDrama)
+                arryForFav =[]
+                $("#nobuton").on('click',()=>{
+                    // i can use array and push all the elemant to empty array and then call array in fav fun
+                    // arryForFav.push(movies[i][key][key2].img)
+                    // arryForFav.push(movies[i][key][key2].name)
+                    // arryForFav.push(movies[i][key][key2].type)
+                    if(localStorage.getItem('xxx')===null){
+                        console.log("FDSA")
+                        localStorage.setItem('iii',1) 
+                        localStorage.setItem('xxx',"DASDAS") 
+                    }
+                        localStorage.setItem('iii',Number(localStorage.getItem('iii'))) 
+                    
+                    localStorage.setItem(localStorage.getItem('iii'),movies[i][key][key2].img ) 
+                    localStorage.setItem('iii',Number(localStorage.getItem('iii'))+1)
+                    conterforlocal++
+                    localStorage.setItem(localStorage.getItem('iii'),movies[i][key][key2].name ) 
+                    localStorage.setItem('iii',Number(localStorage.getItem('iii'))+1)
+                    conterforlocal++
+                    localStorage.setItem(localStorage.getItem('iii'),movies[i][key][key2].type )
+                    localStorage.setItem('iii',Number(localStorage.getItem('iii'))+1)
+                    conterforlocal++
+                    })
             })
         }}
     }
@@ -576,6 +599,29 @@ movies.forEach(function(ele,i){
                 </div>
                 `)
                 ditails.append(DetailsForDrama)
+                arryForFav =[]
+                $("#nobuton").on('click',()=>{
+                    // i can use array and push all the elemant to empty array and then call array in fav fun
+                    // arryForFav.push(movies[i][key][key2].img)
+                    // arryForFav.push(movies[i][key][key2].name)
+                    // arryForFav.push(movies[i][key][key2].type)
+                    if(localStorage.getItem('xxx')===null){
+                        console.log("FDSA")
+                        localStorage.setItem('iii',1) 
+                        localStorage.setItem('xxx',"DASDAS") 
+                    }
+                        localStorage.setItem('iii',Number(localStorage.getItem('iii'))) 
+                    
+                    localStorage.setItem(localStorage.getItem('iii'),movies[i][key][key2].img ) 
+                    localStorage.setItem('iii',Number(localStorage.getItem('iii'))+1)
+                    conterforlocal++
+                    localStorage.setItem(localStorage.getItem('iii'),movies[i][key][key2].name ) 
+                    localStorage.setItem('iii',Number(localStorage.getItem('iii'))+1)
+                    conterforlocal++
+                    localStorage.setItem(localStorage.getItem('iii'),movies[i][key][key2].type )
+                    localStorage.setItem('iii',Number(localStorage.getItem('iii'))+1)
+                    conterforlocal++
+                    })
             })
         }}
     }
