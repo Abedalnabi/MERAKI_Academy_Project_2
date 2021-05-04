@@ -737,6 +737,7 @@ function about(){
 
 
 aboutus.on("click",()=>{
+        about1.html("")
         about1.show()
         allbaneer.show()
         about()
@@ -815,7 +816,20 @@ const Changecoler =  ()=> {
 };
 };
 const colerthems = Changecoler();
+//////////regester
+const regst = $(".regst")
+const register =()=>{
+    const regestr = $(`
+    <div class = regester>
+        <div> <input class=username type="text" value="" placeholder = 'User name'/></div>
+        <div><input class=pass type="text" value="" placeholder = 'Password'/></div>
+        <button>Sign ssssssssin</button>
+    </div>
+    `)
+    regst.append(regestr)
+    console.log("GF")
 
+}
 
 ///////////////// home button
 const home = $(".home")
@@ -826,7 +840,7 @@ const allbaneer = $(".ALL_Banner")
 
 const singIn =$(".singIn")
 const singInbutton = $(".Sing-in")
-
+const Sign123=$(".Sign123")
 singInbutton.on('click',()=>{
     singIn.html("")
     baner.hide()
@@ -838,18 +852,17 @@ singInbutton.on('click',()=>{
 
     const sing = $(`
     <div class = regester>
-        <div> <input class=username type="text" value="some text" placeholder = 'User name'/></div>
-        <div><input class=pass type="text" value="some text" placeholder = 'Password'/></div>
-        <h3 >dont have account </h3>
-        <h3 >Regester now </h3>
-
+        <div> <input class=username type="text" value="" placeholder = 'User name'/></div>
+        <div><input class=pass type="text" value="" placeholder = 'Password'/></div>
+        <button>Sign in</button>
+        <li><a></a><button onclick="register()">Register now  </button> </li>
 
     </div>
-
     `)
     singIn.append(sing)
-
+   
 })
+
 // console.log(username1)
 
 // function singInFun(user,pass){
