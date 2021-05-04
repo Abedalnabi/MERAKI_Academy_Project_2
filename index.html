@@ -11,7 +11,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="/Imiges/favicon.ico">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 <body>
 
     <div class="upperPage" >
@@ -24,7 +24,11 @@
             <li class ="Myfaverite"><a >Favorite</a></li>
             <li class ="AboutUs"><a >About Us</a></li>
             <li class ="Sing-in"><a >Sing in</a></li>
-            <li><a></a><button onclick="colerthems()">Change color  </button> </li>
+            <div class="toggle">
+                <i class="fas fa-moon toggle-icon " onclick="colerthems()" ></i>
+                <i class="fas fa-sun toggle-icon" onclick="colerthems()"></i>
+                <div class="toggle-ball"></div>
+            </div>
         </ul></div>
 <div class="ALL_Banner">
     <div class = BANEER>
@@ -71,6 +75,8 @@
 </div>
 
 <div class="singIn"></div>
+<div class="regst"></div>
+
 
 
     <script src="main.js"></script>

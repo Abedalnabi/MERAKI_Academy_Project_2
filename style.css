@@ -169,6 +169,38 @@ button:hover {
 
 
 }
+
+.toggle{
+    display: flex;
+    width: 40px;    
+    height: 20px;
+    background-color: var(--main-color);
+    border-radius: 30px;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.toggle-icon{
+    color: goldenrod;
+}
+.toggle-ball{
+    width: 18px;
+    height: 18px;
+    background-color: var(--sub-color);
+    position: absolute;
+    right: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.toggle.active{
+    background-color: var(--sub-color);
+}
+
+.toggle-ball.active{
+    background-color: var(--main-color);
+    transform: translateX(-20px);
+}
+
 .other{
     display: grid;
     grid-template-columns: 300px 300px 300px 300px;

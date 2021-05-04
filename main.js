@@ -786,7 +786,12 @@ $(".Tvserios").on("click" , ()=>{
 
 
 //////////////////// thems style
+const toggleIcon =$(".toggle-icon")
 const Changecoler =  ()=> {
+    toggleIcon.removeClass("toggle-ball")
+    toggleIcon.addClass("toggle-ball.active")
+        
+    
     let mainColor = true;
     const color9 =$('.color9')
     console.log(mainColor)
