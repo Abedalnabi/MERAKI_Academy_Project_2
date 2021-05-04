@@ -205,12 +205,17 @@ button:hover {
     display: grid;
     grid-template-columns: 300px 300px 300px 300px;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 56px;
 }
 
 .other:hover{
 
 }
+.aboutus1{
+    margin-top: -65px;
+    margin-left: 29px;
+}
+
 .All:hover{
     transform: translateY(15px);
     transition: all ease .7s;
@@ -355,6 +360,8 @@ footer{
 
 
 }
+
+
 /*
 .baner{
     display: grid;

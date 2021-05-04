@@ -737,6 +737,7 @@ function about(){
 
 
 aboutus.on("click",()=>{
+        footer.hide()
         about1.html("")
         about1.show()
         allbaneer.show()
@@ -788,9 +789,8 @@ $(".Tvserios").on("click" , ()=>{
 //////////////////// thems style
 const toggleIcon =$(".toggle-icon")
 const Changecoler =  ()=> {
-    toggleIcon.removeClass("toggle-ball")
-    toggleIcon.addClass("toggle-ball.active")
-        
+    
+    
     
     let mainColor = true;
     const color9 =$('.color9')
