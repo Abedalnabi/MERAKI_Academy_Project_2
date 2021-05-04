@@ -13,7 +13,6 @@ const movies = [
             des :`Avatar (marketed as James Cameron's Avatar) is a 2009 American[7][8] epic science fiction film directed, written, produced, and co-edited by James Cameron and starring Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, and Sigourney Weaver. The film is set in the mid-22nd century when humans are colonizing Pandora, a lush habitable moon of a gas giant in the Alpha Centauri star system, in order to mine the mineral unobtanium,[9][10] a room-temperature superconductor.[11] The expansion of the mining colony threatens the continued existence of a local tribe of Na'vi – a humanoid species indigenous to Pandora. The film's title refers to a genetically engineered Na'vi body operated from the brain of a remotely located human that is used to interact with the natives of Pandora.`,
             video: `https://www.youtube.com/embed/5PSNL1qE6VY`
         },
-
         godzilla1: {
             name: "godzilla1",
             date: "2021",
@@ -22,7 +21,6 @@ const movies = [
             ,des: "Godzilla vs. Kong is a 2021 American monster film directed by Adam Wingard. A sequel to Godzilla: King of the Monsters (2019) and Kong: Skull Island (2017), it is the fourth film in Legendary's MonsterVerse. It is also the 36th film in the Godzilla franchise, the 12th film in the King Kong franchise, and the fourth Godzilla film to be completely produced by a Hollywood studio.[b] The film stars Alexander Skarsgård, Millie Bobby Brown, Rebecca Hall, Brian Tyree Henry, Shun Oguri, Eiza González, Julian Dennison, Lance Reddick, Kyle Chandler, and Demián Bichir. In the film, Kong clashes with Godzilla as humans lure the ape into the Hollow Earth to retrieve a power source for a weapon to stop Godzilla's mysterious rampages.",
             video:"https://www.youtube.com/embed/odM92ap8_c0"
         },
-
         Inception: {
             name: "Inception",
             date: "2010",
@@ -31,7 +29,6 @@ const movies = [
             ,des: "Inception is a 2010 science fiction action film[4][5][6] written and directed by Christopher Nolan, who also produced the film with Emma Thomas, his wife. The film stars Leonardo DiCaprio as a professional thief who steals information by infiltrating the subconscious of his targets. He is offered a chance to have his criminal history erased as payment for the implantation of another person's idea into a target's subconscious.[7] The ensemble cast includes Ken Watanabe, Joseph Gordon-Levitt, Marion Cotillard, Elliot Page,[a] Tom Hardy, Dileep Rao, Cillian Murphy, Tom Berenger, and Michael Caine.",
             video:"https://www.youtube.com/embed/YoHD9XEInc0"
         },
-
         Bloodshot : {
             name: "Bloodshot",
             date: "2021",
@@ -117,7 +114,6 @@ const movies = [
             des :`Vikings (marketed as James Cameron's Avatar) is a 2009 American[7][8] epic science fiction film directed, written, produced, and co-edited by James Cameron and starring Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, and Sigourney Weaver. The film is set in the mid-22nd century when humans are colonizing Pandora, a lush habitable moon of a gas giant in the Alpha Centauri star system, in order to mine the mineral unobtanium,[9][10] a room-temperature superconductor.[11] The expansion of the mining colony threatens the continued existence of a local tribe of Na'vi – a humanoid species indigenous to Pandora. The film's title refers to a genetically engineered Na'vi body operated from the brain of a remotely located human that is used to interact with the natives of Pandora.`,
             video: `https://www.youtube.com/embed/Auzs95InJzo`
         },
-
         The100: {
             name: "The100",
             date: "2011",
@@ -126,7 +122,6 @@ const movies = [
             des :`Vikings (marketed as James Cameron's Avatar) is a 2009 American[7][8] epic science fiction film directed, written, produced, and co-edited by James Cameron and starring Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, and Sigourney Weaver. The film is set in the mid-22nd century when humans are colonizing Pandora, a lush habitable moon of a gas giant in the Alpha Centauri star system, in order to mine the mineral unobtanium,[9][10] a room-temperature superconductor.[11] The expansion of the mining colony threatens the continued existence of a local tribe of Na'vi – a humanoid species indigenous to Pandora. The film's title refers to a genetically engineered Na'vi body operated from the brain of a remotely located human that is used to interact with the natives of Pandora.`,
             video:"https://www.youtube.com/embed/odM92ap8_c0"
         },
-
         GameOfThrons: {
             name: "GameOfThrons",
             date: "2011",
@@ -135,7 +130,6 @@ const movies = [
             des :`Vikings (marketed as James Cameron's Avatar) is a 2009 American[7][8] epic science fiction film directed, written, produced, and co-edited by James Cameron and starring Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, and Sigourney Weaver. The film is set in the mid-22nd century when humans are colonizing Pandora, a lush habitable moon of a gas giant in the Alpha Centauri star system, in order to mine the mineral unobtanium,[9][10] a room-temperature superconductor.[11] The expansion of the mining colony threatens the continued existence of a local tribe of Na'vi – a humanoid species indigenous to Pandora. The film's title refers to a genetically engineered Na'vi body operated from the brain of a remotely located human that is used to interact with the natives of Pandora.`,
             video:"https://www.youtube.com/embed/YoHD9XEInc0"
         },
-
         PekyBlinders : {
             name: "PekyBlinders",
             date: "2013",
@@ -144,7 +138,6 @@ const movies = [
             ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
             video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
-        
         LaCasaDePable: {
             name: "LaCasaDePable",
             date: "2017",
@@ -177,7 +170,6 @@ const movies = [
             ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
             video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
-        
         TheOldGuard1: {
             name: "TheOldGuard1",
             date: "2013",
@@ -240,7 +232,6 @@ const movies = [
             ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
             video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
-       
         TheOldGuard2: {
             name: "TheOldGuard2",
             date: "2013",
@@ -282,8 +273,6 @@ const movies = [
             ,des: "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the first installment in a series of films set within a Valiant Comics shared cinematic universe.[3] Directed by David S. F. Wilson (in his feature directorial debut) from a screenplay by Jeff Wadlow and Eric Heisserer and a story by Wadlow,[4] the film stars Vin Diesel, Eiza González, Sam Heughan, Toby Kebbell, and Guy Pearce. It follows a soldier who was killed in action, only to be brought back to life with superpowers by an organization that wants to use him as a weapon.",
             video:"https://www.youtube.com/embed/vOUVVDWdXbo"
         },
-        
-       
         Avatar : {
             name: "Avatar",
             date: "2009",
@@ -292,7 +281,6 @@ const movies = [
             des :`Avatar (marketed as James Cameron's Avatar) is a 2009 American[7][8] epic science fiction film directed, written, produced, and co-edited by James Cameron and starring Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, and Sigourney Weaver. The film is set in the mid-22nd century when humans are colonizing Pandora, a lush habitable moon of a gas giant in the Alpha Centauri star system, in order to mine the mineral unobtanium,[9][10] a room-temperature superconductor.[11] The expansion of the mining colony threatens the continued existence of a local tribe of Na'vi – a humanoid species indigenous to Pandora. The film's title refers to a genetically engineered Na'vi body operated from the brain of a remotely located human that is used to interact with the natives of Pandora.`,
             video: `https://www.youtube.com/embed/5PSNL1qE6VY`
         },
-
         godzilla: {
             name: "godzilla",
             date: "2021",
@@ -301,48 +289,22 @@ const movies = [
             ,des: "Godzilla vs. Kong is a 2021 American monster film directed by Adam Wingard. A sequel to Godzilla: King of the Monsters (2019) and Kong: Skull Island (2017), it is the fourth film in Legendary's MonsterVerse. It is also the 36th film in the Godzilla franchise, the 12th film in the King Kong franchise, and the fourth Godzilla film to be completely produced by a Hollywood studio.[b] The film stars Alexander Skarsgård, Millie Bobby Brown, Rebecca Hall, Brian Tyree Henry, Shun Oguri, Eiza González, Julian Dennison, Lance Reddick, Kyle Chandler, and Demián Bichir. In the film, Kong clashes with Godzilla as humans lure the ape into the Hollow Earth to retrieve a power source for a weapon to stop Godzilla's mysterious rampages.",
             video:"https://www.youtube.com/embed/odM92ap8_c0"
         }
-        
     }
 },
 ]
 ////////////////////////////// Variables
 const baner  = $(".BANEER")
-const other =$(".other")
+const other = $(".other")
 const allmoviesButton1 = $(".allmoviesButton")
-const ActionMovies  =   $(".Action")
-const DramaMovies=      $(".Drama")
+const ActionMovies  = $(".Action")
+const DramaMovies= $(".Drama")
 const ditails = $(".ditails")
 const FAV= $(".FAV")
 const footer =$(".footer")
 let conterforlocal=1
 /////////////////////////////////////FAV FUN
-arr=1
-arr1=1
-arr2=2
 const favoritesFun =(a)=>{
-
-arr++
-arr1++
-arr2++
-
-// let b=JSON.stringify()
-// console.log(b)
-// localStorage.setItem(a,$(".namedetalis").text())
-// localStorage.setItem(a,$(".dateDetails").text()) 
-// localStorage.setItem(`${JSON.stringify(a)}+img`,$(".DetailsIMg").attr("src"))
-
-let poiu=$(".DetailsIMg").attr("src")
-
-
-
-    // let ddddd
-    // localStorage.setItem("key", JSON.stringify(ddddd))
-    // console.log(ddddd)
-    // FAV.append(ddddd)
-    // arr.push(ddddd)
-    
 }
-/////////////////////////-------------------
 const Myfaverite = $(".Myfaverite")
 Myfaverite.on('click',()=>{
     FAV.html("")
@@ -353,24 +315,6 @@ Myfaverite.on('click',()=>{
     about1.html("")
     baner.hide()
     singIn.html("")
-/////////////////////////////////-----------------------------------------
-
-////////////////////////////
-// let key 
-// let value
-// for (let i=0 ; i<localStorage.length ;i++){
-
-//     key = localStorage.key(i)
-//     value = localStorage.getItem(key)
-//     console.log("key",key)
-//     console.log("val",value)
-// }
-
-
-/////////////////////////////////////-------------------
-    
-    
-
     for(let j=1 ; j<=localStorage.length-2;j++){
         let fav = $(`
         <div class="All">  
@@ -386,15 +330,12 @@ Myfaverite.on('click',()=>{
         FAV.append(fav)
     }
 })
-////////////////////////////////////----------------------------------------------------------------
 //////////////////////////////////All Movie FUN
-
 const allMovies = ()=> {
     baner.hide()
     ditails.show()
     FAV.hide()
-
-movies.forEach(function(ele,i){
+    movies.forEach(function(ele,i){
     for(const key in movies[i]){
         for(const key2 in movies[i][key]){
             const allMovies = $(`
@@ -427,30 +368,21 @@ movies.forEach(function(ele,i){
                         <iframe width="700" height="315" src="${movies[i][key][key2].video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div> 
                     <button id= "nobuton" >Add to favorites</button>
-
                 </div>
-                
                 `)
-                
-                
                 ditails.append(DetailsForDrama)
                 arryForFav12 =["Avatarr","godzilla1","Inception"]
-                
-                
                 $("#nobuton").on('click',()=>{
                     // i can use array and push all the elemant to empty array and then call array in fav fun
                     // arryForFav.push(movies[i][key][key2].img)
                     // arryForFav.push(movies[i][key][key2].name)
                     // arryForFav.push(movies[i][key][key2].type)
-
-
                     if(localStorage.getItem('xxx')===null){
                         console.log("FDSA")
                         localStorage.setItem('iii',1) 
                         localStorage.setItem('xxx',"DASDAS") 
                     }
-                        localStorage.setItem('iii',Number(localStorage.getItem('iii'))) 
-                    
+                    localStorage.setItem('iii',Number(localStorage.getItem('iii'))) 
                     localStorage.setItem(localStorage.getItem('iii'),movies[i][key][key2].img ) 
                     localStorage.setItem('iii',Number(localStorage.getItem('iii'))+1)
                     conterforlocal++
@@ -461,32 +393,16 @@ movies.forEach(function(ele,i){
                     localStorage.setItem('iii',Number(localStorage.getItem('iii'))+1)
                     conterforlocal++
                     })
-                    // localStorage.setItem(movies[i][key][key2].name,arryForFav)
-
-                    // localStorage.setItem(`item${movies[i][key][key2].name}`,arryForFav[0])
-                    // localStorage.setItem(`item${movies[i][key][key2].img}`,arryForFav[1])
-                    // localStorage.setItem(`item${movies[i][key][key2].des}`,arryForFav[2])
-                    
-                    
-
-                    
-                
-                
             })
-        
         }
     }
-    
 })
-
 }
 ////////////////////////////////Drama Movie FUN
-
 const DramaMoviesFun = ()=> {
-    baner.hide()
-    ditails.show()
-    FAV.hide()
-
+baner.hide()
+ditails.show()
+FAV.hide()
 movies.forEach(function(ele,i){
     for(const key in movies[i]){
         for(const key2 in movies[i][key]){
@@ -503,7 +419,6 @@ movies.forEach(function(ele,i){
                     <h2 id="type">${movies[i][key][key2].type}</h2>
                 </div> 
             </div>`)
-            
             other.append(allMovies)
             let a= movies[i][key][key2].name
             $(`#${a}`).on("click", ()=>{
@@ -529,17 +444,12 @@ movies.forEach(function(ele,i){
                 ditails.append(DetailsForDrama)
                 arryForFav =[]
                 $("#nobuton").on('click',()=>{
-                    // i can use array and push all the elemant to empty array and then call array in fav fun
-                    // arryForFav.push(movies[i][key][key2].img)
-                    // arryForFav.push(movies[i][key][key2].name)
-                    // arryForFav.push(movies[i][key][key2].type)
                     if(localStorage.getItem('xxx')===null){
                         console.log("FDSA")
                         localStorage.setItem('iii',1) 
                         localStorage.setItem('xxx',"DASDAS") 
                     }
-                        localStorage.setItem('iii',Number(localStorage.getItem('iii'))) 
-                    
+                    localStorage.setItem('iii',Number(localStorage.getItem('iii'))) 
                     localStorage.setItem(localStorage.getItem('iii'),movies[i][key][key2].img ) 
                     localStorage.setItem('iii',Number(localStorage.getItem('iii'))+1)
                     conterforlocal++
@@ -554,16 +464,12 @@ movies.forEach(function(ele,i){
         }}
     }
 })
-
 }
-
 /////////////////////////Action Movie FUN
-
 const ActionMoviesFun = ()=> {
-    baner.hide()
-    ditails.show()
-    FAV.hide()
-
+baner.hide()
+ditails.show()
+FAV.hide()
 movies.forEach(function(ele,i){
     for(const key in movies[i]){
         for(const key2 in movies[i][key]){
@@ -580,8 +486,6 @@ movies.forEach(function(ele,i){
                     <h2 id="type1">${movies[i][key][key2].type}</h2>
                 </div> 
             </div>`)
-            
-            
             other.append(allMovies)
             let a= movies[i][key][key2].name
             $(`#${a}`).on("click", ()=>{
@@ -606,17 +510,12 @@ movies.forEach(function(ele,i){
                 ditails.append(DetailsForDrama)
                 arryForFav =[]
                 $("#nobuton").on('click',()=>{
-                    // i can use array and push all the elemant to empty array and then call array in fav fun
-                    // arryForFav.push(movies[i][key][key2].img)
-                    // arryForFav.push(movies[i][key][key2].name)
-                    // arryForFav.push(movies[i][key][key2].type)
                     if(localStorage.getItem('xxx')===null){
                         console.log("FDSA")
                         localStorage.setItem('iii',1) 
                         localStorage.setItem('xxx',"DASDAS") 
                     }
-                        localStorage.setItem('iii',Number(localStorage.getItem('iii'))) 
-                    
+                    localStorage.setItem('iii',Number(localStorage.getItem('iii'))) 
                     localStorage.setItem(localStorage.getItem('iii'),movies[i][key][key2].img ) 
                     localStorage.setItem('iii',Number(localStorage.getItem('iii'))+1)
                     conterforlocal++
@@ -631,20 +530,15 @@ movies.forEach(function(ele,i){
         }}
     }
 })
-
 }
-
 ///////////////////////////TV Serios FUN
 const Tvserios = ()=> {
-    baner.hide()
-    ditails.show()
-
+baner.hide()
+ditails.show()
 movies.forEach(function(ele,i){
     for(const key in movies[i]){
         for(const key2 in movies[i][key]){
-            
             if(key==="Tvserios"){
-            
             const allMovies = $(`
             <div class="All">  
                 <div >
@@ -660,8 +554,6 @@ movies.forEach(function(ele,i){
             type.css({
                 "color" : "red",
             })
-
-            
             other.append(allMovies)
             let a= movies[i][key][key2].name
             $(`#${a}`).on("click", ()=>{
@@ -681,7 +573,6 @@ movies.forEach(function(ele,i){
                         <iframe width="700" height="315" src="${movies[i][key][key2].video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div> 
                     <button id="nobuton" onclick="favoritesFun()">Add to favorites</button>
-
                 </div>
                 `)
                 ditails.append(DetailsForDrama)
@@ -696,8 +587,7 @@ movies.forEach(function(ele,i){
                         localStorage.setItem('iii',1) 
                         localStorage.setItem('xxx',"DASDAS") 
                     }
-                        localStorage.setItem('iii',Number(localStorage.getItem('iii'))) 
-                    
+                    localStorage.setItem('iii',Number(localStorage.getItem('iii'))) 
                     localStorage.setItem(localStorage.getItem('iii'),movies[i][key][key2].img ) 
                     localStorage.setItem('iii',Number(localStorage.getItem('iii'))+1)
                     conterforlocal++
@@ -708,18 +598,15 @@ movies.forEach(function(ele,i){
                     localStorage.setItem('iii',Number(localStorage.getItem('iii'))+1)
                     conterforlocal++
                     })
-                
             })
         }}
     }
 })
-
 }
 /////////////////////////About us Button FUN
 const aboutus = $(".AboutUs")
 const about1 = $(".aboutus1")
 function about(){
-
     const about = $(`
     <h1 class = H1 > <span style="color: red;">Mo</span>_Movies</h1>
     <p class = P>Welcome, thank you for using our website
@@ -731,11 +618,8 @@ function about(){
     <p class = P> <i class='bx bx-mail-send bx-tada' ></i>email:abedalnabi96@gmail.com<p>
     <p class = P><i class='bx bx-phone-incoming bx-tada' ></i>Telphone : 065894862<p>
     `)
-
     about1.append(about)
 }
-
-
 aboutus.on("click",()=>{
         footer.hide()
         about1.html("")
@@ -745,16 +629,12 @@ aboutus.on("click",()=>{
         baner.hide()
         other.hide()
         singIn.html("")
-
-
     })
-
 ///////////////////////Buttons FUN
 const upperPage = $(".upperPage")
 allmoviesButton1.on("click" ,allMovies)
 ActionMovies.on("click" ,ActionMoviesFun)
 DramaMovies.on("click" ,DramaMoviesFun)
-
 $(".movieall").on("click" , ()=>{
     FAV.hide()
     allbaneer.show()
@@ -765,9 +645,7 @@ $(".movieall").on("click" , ()=>{
     ditails.html("")
     singIn.html("")
     allMovies()
-
 })
-
 $(".Tvserios").on("click" , ()=>{
     FAV.hide()
     allbaneer.show()
@@ -776,25 +654,15 @@ $(".Tvserios").on("click" , ()=>{
     about1.html("")
     ditails.html("")
     singIn.html("")
-
-
     Tvserios()
     footer(hide)    
-
 })
-
-
-
-
 //////////////////// thems style
 const toggleIcon =$(".toggle-icon")
 const Changecoler =  ()=> {
-    
-    
-    
-    let mainColor = true;
-    const color9 =$('.color9')
-    console.log(mainColor)
+let mainColor = true;
+const color9 =$('.color9')
+console.log(mainColor)
     return  () =>{
         if (mainColor) {
             mainColor = false;
@@ -813,10 +681,6 @@ const Changecoler =  ()=> {
                 "--sub-color":"rgb(0, 0, 0)",
                 
             })
-            
-            
-
-
     }
 };
 };
@@ -833,16 +697,11 @@ const register =()=>{
     `)
     regst.append(regestr)
     console.log("GF")
-
 }
-
 ///////////////// home button
 const home = $(".home")
 const allbaneer = $(".ALL_Banner")
-
-
 ///////////////Sing in FUN
-
 const singIn =$(".singIn")
 const singInbutton = $(".Sing-in")
 const Sign123=$(".Sign123")
@@ -853,49 +712,16 @@ singInbutton.on('click',()=>{
     other.hide()
     allbaneer.hide()
     FAV.hide()
-
-
     const sing = $(`
     <div class = regester>
         <div> <input class=username type="text" value="" placeholder = 'User name'/></div>
         <div><input class=pass type="text" value="" placeholder = 'Password'/></div>
         <button>Sign in</button>
         <li><a></a><button onclick="register()">Register now  </button> </li>
-
     </div>
     `)
     singIn.append(sing)
-   
 })
-
-// console.log(username1)
-
-// function singInFun(user,pass){
-//     array=[]
-//     obj ={}
-
-//     const pass =$(".pass").val
-//     let username1 =$(".username").val();
-
-//     obj.name= username1
-//     obj.pass=pass
-//     array.push(obj)
-//     array.forEach((ele,i)=>{
-//         if(obj.name){
-
-
-//         }
-
-
-//     })
-
-
-// }
-
-
-
-
-
 
 
 
